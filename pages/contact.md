@@ -19,10 +19,8 @@ tags:
 
 | <i class="fa fa-twitter"></i> | [@{{ site.owner.twitter }}](https://twitter.com/{{ site.owner.twitter }})  |
 | - | :- |
-| <i class="fa fa-envelope"></i> | Akshay<br>XYZ<br>2404 Nutwood Ave<br>Fullerton, CA 92831 <br><i class="fa fa-plane"> </i> For the right opportunity, I am definitely willing to relocate.  |
+| <i class="fa fa-envelope"></i> | Akshay Thorve<br>2404 Nutwood Ave<br>Fullerton, CA 92831 <br> For the right opportunity, I am definitely willing to relocate. <i class="fa fa-plane"> </i> |
 | - | :- |
-<!-- | <i class="fa fa-car"></i>  | [Driving directions]({{ site.url }}/directions) |
-| - | :- | -->
 | <i class="fa fa-paper-plane">  | thorveakshay@gmail.com |
 | - | :- |
 
