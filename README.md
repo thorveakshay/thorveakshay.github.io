@@ -84,7 +84,7 @@ example.com/images/icons/android-icon-192x192.png
     *   Edit address, driving direction url, etc.
 *   `pages/cv.md`
     *   Edit `_config.yml` to add twitter, google plus, linkedin, google scholar, ORCID profile info under owner heading.   
-    *   Add pdf at `{{ site.url }}/cv/cv.pdf` 
+    *   Add pdf at `{{ site.url }}/cv/Akshay-Thorve-Resume.pdf` 
 *   `pages/publications.md`
     *   Add your publications at `/files/mypubs.bib` and `_includes/mypubs.html`. See above under `_includes` for more.
 *   `pages/disclosure.md`

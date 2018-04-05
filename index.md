@@ -1,17 +1,24 @@
 ---
 layout: default
 permalink: index.html
-title: Personal Homepage of foo boo
-description: "Blogging on ...."
+title: Personal Homepage of Akshay Thorve
+description: "Blogging on my passion"
 ---
 
-## [lanyon-plus](https://github.com/dyndna/lanyon-plus)
+## Passionate Software Engineer
+### Expert at translating business requirements into technical solutions.
+
+* Over four years of professional experience in Software design, architecture, and engineering.
+* Executed projects as a Full-Stack developer, with an emphasis on designing scalable services in Java/J2EE.
+* Implemented projects using the Agile, Scrum, XP and Waterfall methodologies.
+* Contributed to onsite, offsite and cross-platform teams on software development and continuous delivery/integration.
+* Excellent verbal, communication and team skills along with problem-solving and analytical skills.
 
 Based on Jekyll theme: [Lanyon](http://lanyon.getpoole.com) by [**Mark Otto**](https://github.com/mdo)
 
 * add-ons by [Samir Amin](http://sbamin.com)
 * [Site features]({{ site.url}}/disclosure#i-classfa-fa-thumbs-o-up-credits-for-site-featuresi)
-* License: Open sourced under the [MIT license](http://sbamin.com/disclosure/#theme-major-credit--license). 
+* License: Open sourced under the [MIT license](http://sbamin.com/disclosure/#theme-major-credit--license).
 
 Maximum four posts on front page where first two posts are featured, and remaining are date sorted.
 

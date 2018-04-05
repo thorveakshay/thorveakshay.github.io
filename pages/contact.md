@@ -4,7 +4,7 @@ permalink: /contact/
 title: Contact
 show_meta: false
 published: true
-description: "Contact example.com"
+description: "Contact Akshay"
 comments: false
 mathjax: false
 noindex: false
@@ -13,18 +13,17 @@ sitemap:
     changefreq: 'monthly'
     lastmod: 2016-02-13
 tags:
-  - "foo boo"
-  - "driving directions"
+  - "Akshay Thorve"
   - address
 ---
 
-| <i class="fa fa-twitter"></i> | [@{{ site.owner.twitter }}](https://twitter.com/{{ site.owner.twitter }})  | 
+| <i class="fa fa-twitter"></i> | [@{{ site.owner.twitter }}](https://twitter.com/{{ site.owner.twitter }})  |
 | - | :- |
-| <i class="fa fa-envelope"></i> | foo<br>XYZ<br>1234 ABC ST<br>Washington, DC 11111   | 
+| <i class="fa fa-envelope"></i> | Akshay<br>XYZ<br>2404 Nutwood Ave<br>Fullerton, CA 92831 <br><i class="fa fa-plane"> </i> For the right opportunity, I am definitely willing to relocate.  |
 | - | :- |
-| <i class="fa fa-car"></i>  | [Driving directions]({{ site.url }}/directions) | 
-| - | :- |
-| <i class="fa fa-paper-plane">  | foo@xyz | 
+<!-- | <i class="fa fa-car"></i>  | [Driving directions]({{ site.url }}/directions) |
+| - | :- | -->
+| <i class="fa fa-paper-plane">  | thorveakshay@gmail.com |
 | - | :- |
 
 <a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.owner.twitter }}" data-size="small" data-dnt="true">Tweet</a> <a href="javascript:window.print()" class="social-icons" title="Printer friendly format"><i class="fa fa-print"></i></a>

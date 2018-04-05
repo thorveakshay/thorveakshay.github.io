@@ -45,14 +45,14 @@ exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "l
 
 # About/contact
 author:
-  name:              Foo Boo
+  name:              Akshay Thorve
   url:               https://twitter.com/abcd
   avatar:         foo.png
   #email:           
 
 # Owner/author information
 owner:
-  name:           Foo Boo
+  name:           Akshay Thorve
   avatar:         foo.png
   #email:          
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
