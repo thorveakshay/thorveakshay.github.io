@@ -9,14 +9,14 @@ description: "Blogging on my passion"
 Passionate about Software design, architecture, and engineering.
 
 ### Quick summary about me
-* Professional experience of 4+ years in [**TCS**](https://en.wikipedia.org/wiki/Tata_Consultancy_Services).
+* Professional experience of <strong> 4+ years </strong> in [**TCS**](https://en.wikipedia.org/wiki/Tata_Consultancy_Services).
 * Full-Stack developer, with an emphasis on designing scalable services in Java/J2EE & Python stack.
-* Project methodologies Agile, Scrum, XP, and Waterfall.
+* Project methodologies <em>Agile, Scrum, XP, and Waterfall.</em>
 * Expert at translating business requirements into technical solutions.
-* Contributed to onsite, offsite and cross-platform teams on software development and continuous delivery/integration.
+* Contributed to onsite, offsite and cross-platform teams on <strong> software development and continuous delivery/integration.</strong>
 * Excellent team player along with problem-solving and analytical skills.
 
-## Recent Blog Posts & Projects
+
 
 {% if site.twitter_widget_id %}
 <div class="text-tweets">
@@ -38,6 +38,9 @@ Passionate about Software design, architecture, and engineering.
 {% else %}
 Twitter stream will show up here if `twitter_widget_id` is present is `_config.yml`. [Demo](http://sbamin.com)
 {% endif %}
+
+
+## Recent Blog Posts & Projects
 
 <div class="posts">
   {% for post in site.categories.featured limit:2 %}
