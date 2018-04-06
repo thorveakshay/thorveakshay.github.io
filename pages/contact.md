@@ -21,7 +21,7 @@ tags:
 | - | :- |
 | <i class="fa fa-linkedin">  | https://www.linkedin.com/in/akshaythorve |
 | - | :- |  
-| <i class="fa fa-envelope"></i> | Akshay Thorve<br>2404 Nutwood Ave<br>Fullerton, CA 92831 <br> For the right opportunity, I am definitely willing to relocate. <i class="fa fa-plane"> </i> |
+| <i class="fa fa-envelope"></i> | Akshay Thorve<br>2404 Nutwood Ave<br>Fullerton, CA 92831 <br> <em>For the right opportunity, I am definitely willing to relocate.</em> <i class="fa fa-plane"> </i> |
 | - | :- |
 | <i class="fa fa-twitter"></i> | [@{{ site.owner.twitter }}](https://twitter.com/{{ site.owner.twitter }})  |
 | - | :- |
