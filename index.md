@@ -6,14 +6,17 @@ description: "Blogging on my passion"
 ---
 
 ## Software Engineer
-Passionate about Software design, architecture, and engineering
+Passionate about Software design, architecture, and engineering.
 
-Based on Jekyll theme: [Lanyon](http://lanyon.getpoole.com) by [**Mark Otto**](https://github.com/mdo)
+### Quick summary about me
+* Professional experience of 4+ years in [**TCS**](https://en.wikipedia.org/wiki/Tata_Consultancy_Services).
+* Full-Stack developer, with an emphasis on designing scalable services in Java/J2EE & Python stack.
+* Project methodologies Agile, Scrum, XP, and Waterfall.
+* Expert at translating business requirements into technical solutions.
+* Contributed to onsite, offsite and cross-platform teams on software development and continuous delivery/integration.
+* Excellent team player along with problem-solving and analytical skills.
 
-* add-ons by [Samir Amin](http://sbamin.com)
-* [Site features]({{ site.url}}/disclosure#i-classfa-fa-thumbs-o-up-credits-for-site-featuresi)
-* License: Open sourced under the [MIT license](http://sbamin.com/disclosure/#theme-major-credit--license).
-
+## Recent Blog Posts & Projects
 
 {% if site.twitter_widget_id %}
 <div class="text-tweets">

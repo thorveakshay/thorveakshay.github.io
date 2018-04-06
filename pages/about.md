@@ -18,7 +18,6 @@ sitemap:
 # tags will be used as html meta keywords.    
 tags:
   - "Akshay Thorve"
-  - "city tx"
 ---
 
 <div class="post-author text-center">                       
