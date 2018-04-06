@@ -82,9 +82,9 @@ akshaythorve.com/images/icons/android-icon-192x192.png
 *   `pages/contact.md`
     *   Edit page title and description.
     *   Edit address, driving direction url, etc.
-*   `pages/cv.md`
+*   `pages/resume.md`
     *   Edit `_config.yml` to add twitter, google plus, linkedin, google scholar, ORCID profile info under owner heading.   
-    *   Add pdf at `{{ site.url }}/cv/Akshay-Thorve-Resume.pdf` 
+    *   Add pdf at `{{ site.url }}/resume/Akshay-Thorve-Resume.pdf` 
 *   `pages/publications.md`
     *   Add your publications at `/files/mypubs.bib` and `_includes/mypubs.html`. See above under `_includes` for more.
 *   `pages/disclosure.md`

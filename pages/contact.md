@@ -11,18 +11,20 @@ noindex: false
 sitemap:
     priority: 0.5
     changefreq: 'monthly'
-    lastmod: 2016-02-13
+    lastmod: 2018-02-13
 tags:
   - "Akshay Thorve"
   - address
 ---
-
-| <i class="fa fa-twitter"></i> | [@{{ site.owner.twitter }}](https://twitter.com/{{ site.owner.twitter }})  |
-| - | :- |
-| <i class="fa fa-envelope"></i> | Akshay Thorve<br>2404 Nutwood Ave<br>Fullerton, CA 92831 <br> For the right opportunity, I am definitely willing to relocate. <i class="fa fa-plane"> </i> |
+| <i class="fa fa-linkedin">  | [https://www.linkedin.com/in/akshaythorve/] |
 | - | :- |
 | <i class="fa fa-paper-plane">  | thorveakshay@gmail.com |
 | - | :- |
+| <i class="fa fa-envelope"></i> | Akshay Thorve<br>2404 Nutwood Ave<br>Fullerton, CA 92831 <br> For the right opportunity, I am definitely willing to relocate. <i class="fa fa-plane"> </i> |
+| - | :- |
+| <i class="fa fa-twitter"></i> | [@{{ site.owner.twitter }}](https://twitter.com/{{ site.owner.twitter }})  |
+| - | :- |
+
 
 <a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.owner.twitter }}" data-size="small" data-dnt="true">Tweet</a> <a href="javascript:window.print()" class="social-icons" title="Printer friendly format"><i class="fa fa-print"></i></a>
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /cv/
+permalink: /resume/
 title: Curriculum Vitae
 category: base
 published: true
@@ -19,18 +19,18 @@ sitemap:
 style: |
   .container {
         max-width: 48rem;
-    } 
+    }
 ---
 
 <span class="social-icons">
-<a href="https://twitter.com/share?text=Curriculum Vitae - {{ site.owner.name }}&amp;url={{ site.url }}/cv&amp;via={{ site.owner.twitter }}"  class="social-icons" target="_blank" title="Share on twitter"> <i class="fa fa-twitter meta"></i></a>
-<a href="https://plus.google.com/share?url={{ site.url }}/cv"  class="social-icons" target="_blank" title="Share on Google+"> <i class="fa fa-google-plus"></i></a>
+<a href="https://twitter.com/share?text=Curriculum Vitae - {{ site.owner.name }}&amp;url={{ site.url }}/resume&amp;via={{ site.owner.twitter }}"  class="social-icons" target="_blank" title="Share on twitter"> <i class="fa fa-twitter meta"></i></a>
+<a href="https://plus.google.com/share?url={{ site.url }}/resume"  class="social-icons" target="_blank" title="Share on Google+"> <i class="fa fa-google-plus"></i></a>
 <a href="{{ site.owner.linkedin }}" class="social-icons" title="LinkedIn profile"><i class="fa fa-linkedin"></i></a>
 <a href="{{ site.url }}/files/Akshay-Thorve-Resume.pdf" class="social-icons" title="Printer friendly format"><i class="fa fa-print"></i></a>
 </span>
 
 {:.text-center}
-[Publications]({{ site.url }}/about/publications/) \| [ORCID profile](https://orcid.org/{{ site.owner.orcid }}) \| [Google Scholar profile](https://scholar.google.com/citations?user={{ site.owner.gscholar }}&hl=en) 
+[Publications]({{ site.url }}/about/publications/) \| [ORCID profile](https://orcid.org/{{ site.owner.orcid }}) \| [Google Scholar profile](https://scholar.google.com/citations?user={{ site.owner.gscholar }}&hl=en)
 
 <!-- Alternaetly, user html5 embed tag -->
 <iframe src="{{ site.url }}/files/Akshay-Thorve-Resume.pdf" width="100%" style="height: 100vh;"></iframe>
