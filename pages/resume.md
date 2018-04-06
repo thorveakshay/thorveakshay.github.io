@@ -6,7 +6,6 @@ category: base
 published: true
 description: "Resume"
 tags:
-  - cv
   - resume
   - "Akshay Thorve"
 comments: false

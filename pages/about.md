@@ -39,7 +39,7 @@ I am passionate about Software design, architecture, and engineering. As a Syste
 
 In fall 2016, I left TCS to pursue my Master of Science in Computer Science. Currently, I am working as a Graduate Assistant (Wed Developer) at California State University, Fullerton. Also, as part of my masters class projects I am working on plenty of projects with new and advance technologies.
 
-**I am actively looking for Full Time job opportunities starting July 2018. Drop me a [email](mailto:thorveakshay@gmail.com?subject=Job%20Opportunity&body=Hello%20Akshay,%0D%0A) if your organization is looking for passionate engineer. I am also open for quick chat on [LinkedIn](https://www.linkedin.com/in/akshaythorve).**
+**# I am actively looking for Full Time job opportunities starting July 2018. Drop me a [email](mailto:thorveakshay@gmail.com?subject=Job%20Opportunity&body=Hello%20Akshay,%0D%0A) if your organization is looking for passionate engineer. I am also open for quick chat on [LinkedIn](https://www.linkedin.com/in/akshaythorve).**
 
 
 ## Objective
