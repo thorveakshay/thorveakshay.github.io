@@ -31,4 +31,5 @@ style: |
 
 
 <!-- Alternaetly, user html5 embed tag -->
-<iframe src="{{ site.url }}/files/Akshay-Thorve-Resume.pdf" width="100%" style="height: 100%"></iframe>
+<iframe src="{{ site.url }}/files/Akshay-Thorve-Resume.pdf" style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+</iframe>
