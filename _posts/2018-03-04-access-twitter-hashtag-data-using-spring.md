@@ -1,8 +1,60 @@
+---
+layout: post
+title: "Example content"
+date: "2013-01-01"
+slug: "access-twitter-hashtag-data-using-spring"
+description: "Spring Social Twitter Example - access-twitter-hashtag-data"
+category:
+  - Java
+  - featured
+# tags will also be used as html meta keywords.
+tags:
+  - spring
+  - java
+  - API
+show_meta: true
+comments: true
+mathjax: true
+gistembed: true
+published: true
+noindex: false
+nofollow: false
+# hide QR code, permalink block while printing.
+hide_printmsg: false
+# show post summary or full post in RSS feed.
+summaryfeed: false
+
+---
+
 # Spring Social Twitter Example - access-twitter-hashtag-data
+Java, Spring, Twitter API
 
 GitHub: https://github.com/thorveakshay/access-twitter-hashtag-data-using-spring
 
-## Java, Spring, Twitter API
+<!--more-->
+
+{% highlight js %}
+// this is the code logic of application
+
+@RestController
+@RequestMapping(TwitterController.TWITTER_BASE_URI)
+public class TwitterController {
+
+	public static final String TWITTER_BASE_URI="tweets";
+
+	@Autowired
+	private Twitter twitter;
+
+	@RequestMapping(value="{hashTag}", produces=MediaType.APPLICATION_JSON_UTF8_VALUE)
+	public List<Tweet> getTweets(@PathVariable final String hashTag){
+		return twitter.searchOperations().search(hashTag, 25).getTweets();
+		//25 is the number of tweets, you can put whatever number you want.
+	}
+
+}
+
+// > 8
+{% endhighlight %}
 
 ## Deployment
 
@@ -48,12 +100,12 @@ Below are snapshot. Do whatever you want to achieve with this data.
 ```
 For manutd hashtag
 ```
-<img src="images/projects/manutd.png" width="100%" >
+<img src="https://akshaythorve.com/images/projects/manutd.png" width="100%" >
 
 ```
 For smile hashtag
 ```
-<img src="images/projects/smile.png" width="100%" >
+<img src="https://akshaythorve.com/images/projects/smile.png" width="100%" >
 
 ## Acknowledgments
 
