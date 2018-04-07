@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Example content"
-date: "2013-01-01"
+title: "Spring Social Twitter Example"
+date: "2018-03-04"
 slug: "access-twitter-hashtag-data-using-spring"
 description: "Spring Social Twitter Example - access-twitter-hashtag-data"
 category:
@@ -26,7 +26,7 @@ summaryfeed: false
 
 ---
 
-# Spring Social Twitter Example - access-twitter-hashtag-data
+## Spring Social Twitter Example - access-twitter-hashtag-data
 Java, Spring, Twitter API
 
 GitHub: https://github.com/thorveakshay/access-twitter-hashtag-data-using-spring
@@ -53,7 +53,6 @@ public class TwitterController {
 
 }
 
-// > 8
 {% endhighlight %}
 
 ## Deployment
@@ -79,10 +78,14 @@ https://start.spring.io/
 * Generate project
 * Import downloaded zip as a maven project in eclipse
 * Create developer app on twitter and put your details in applications.properties
-```
+
+{% highlight js %}
+
 spring.social.twitter.app-id=
 spring.social.twitter.app-secret=
-```
+
+{% endhighlight %}
+
 Hit below url
 ```
 http://localhost:8080/tweets/%23manutd
@@ -97,14 +100,14 @@ you will get latest 25 tweets for that hashtag
 
 Below are snapshot. Do whatever you want to achieve with this data.
 
-```
-For manutd hashtag
-```
+
+** For manutd hashtag **
+
 <img src="https://akshaythorve.com/images/projects/manutd.png" width="100%" >
 
-```
-For smile hashtag
-```
+
+** For smile hashtag **
+
 <img src="https://akshaythorve.com/images/projects/smile.png" width="100%" >
 
 ## Acknowledgments
