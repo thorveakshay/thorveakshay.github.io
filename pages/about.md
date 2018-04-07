@@ -50,6 +50,16 @@ I enjoy programming applications see them running in production environment. I l
 * Continuous Integration and Delivery
 
 ## Note
-I am actively looking for Full Time job opportunities starting July 2018. Drop me an [email](mailto:thorveakshay@gmail.com?subject=Job%20Opportunity&body=Hello%20Akshay,%0D%0A) if your organization is looking for passionate engineer. I am also open for quick chat on [LinkedIn](https://www.linkedin.com/in/akshaythorve).**
+** I am actively looking for Full Time job opportunities starting July 2018. Drop me an [email](mailto:thorveakshay@gmail.com?subject=Job%20Opportunity&body=Hello%20Akshay,%0D%0A) if your organization is looking for passionate engineer. I am also open for quick chat on [LinkedIn](https://www.linkedin.com/in/akshaythorve). **
+
+## About the site
+This URL has been my online home for many years. I started my 1st static portfolio website in Wordpress then moved it to HTML, CSS and JS. Today integrating blog using Jekyll to share my development related work.
+
+In case you were wondering, this site is:
+
+* Developed on a Mac in California
+* Coded with Atom
+* Built on [Jekyll](https://jekyllrb.com/) the open source static site generator
+* Hosted on [GitHub Pages](https://pages.github.com/)
 
 *[volutpat]: Tooltip for abbreviation.
