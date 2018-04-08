@@ -5,8 +5,8 @@ title: Personal Homepage of Akshay Thorve
 description: "Blogging on my passion"
 ---
 
-# Software Engineer
-Passionate about Software design, architecture, and engineering.
+# Passionate Software Engineer
+ Currently seeking full time job as Software Engineer, Full Stack Developer
 
 ### Quick summary about me
 * Professional experience of <strong> 4+ years </strong> in [**TCS**](https://en.wikipedia.org/wiki/Tata_Consultancy_Services).
@@ -17,7 +17,7 @@ Passionate about Software design, architecture, and engineering.
 * Excellent `team player` along with problem-solving and analytical skills.
 
 <a href="/about" title="Read more"><strong>Read more...</strong></a>
-
+<!--
 {% if site.twitter_widget_id %}
 <div class="text-tweets">
 <div class="tweets">
@@ -37,7 +37,7 @@ Passionate about Software design, architecture, and engineering.
 </div>
 {% else %}
 Twitter stream will show up here if `twitter_widget_id` is present is `_config.yml`. [Demo](http://sbamin.com)
-{% endif %}
+{% endif %} -->
 
 
 # Recent Blog Posts & Projects
