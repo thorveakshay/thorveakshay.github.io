@@ -7,6 +7,10 @@
 #   url: https://plus.google.com/+foo
 #   class: fa fa-google-plus-square
 #   title: "Follow me"
+- name: LinkedIn
+  url: https://www.linkedin.com/in/akshaythorve/
+  class: fa fa-linkedin-square
+  title: "Professional Identity"
 
 - name: GitHub
   url: https://github.com/thorveakshay
