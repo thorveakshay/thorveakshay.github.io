@@ -2,9 +2,9 @@
 layout: publ
 category: mypubs
 permalink: /about/publications/
-title: "Sample Publications"
+title: "Publications"
 published: true
-description: "Sample publication page"
+description: "Publications page"
 tags:
   - papers
   - articles
@@ -23,11 +23,11 @@ sitemap:
 style: |
   .container {
         max-width: 48rem;
-    } 
+    }
 ---
 
 {% comment %}
-<!-- bibbase.org should work with following code unless you are hosting domain over https. --> 
+<!-- bibbase.org should work with following code unless you are hosting domain over https. -->
 
 {% if page.bibtex %}
  {% if page.bibtex contains 'http' %}
@@ -40,5 +40,3 @@ style: |
 {% endif %}
 
 {% endcomment %}
-
-If category is *mypubs*, then html content from bibtex file at `_includes/mypubs.html` will be shown below.
