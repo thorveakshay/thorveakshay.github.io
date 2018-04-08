@@ -17,7 +17,7 @@ description: "Blogging on my passion"
 * Excellent `team player` along with problem-solving and analytical skills.
 
 <a href="/about" title="Read more"><strong>Read more...</strong></a>
-<!--
+<!---
 {% if site.twitter_widget_id %}
 <div class="text-tweets">
 <div class="tweets">
@@ -37,7 +37,7 @@ description: "Blogging on my passion"
 </div>
 {% else %}
 Twitter stream will show up here if `twitter_widget_id` is present is `_config.yml`. [Demo](http://sbamin.com)
-{% endif %} -->
+{% endif %} --->
 
 
 # Recent Blog Posts & Projects

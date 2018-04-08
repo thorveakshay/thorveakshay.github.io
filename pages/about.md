@@ -62,4 +62,9 @@ In case you were wondering, this site is:
 * Built on [Jekyll](https://jekyllrb.com/) the open source static site generator
 * Hosted on [GitHub Pages](https://pages.github.com/)
 
+## Technical Skills
+**Languages:**| Java, Python	|				             **Databases:** |  MongoDB, Redis, SQL, NoSQL
+**Web Technologies:** | RESTful, JSON, HTML5, CSS3, JavaScript, XML, JSP, Servlets, Mustache, Flask, Unix, Linux, TCP/IP
+Content in the first column | Content in the second column
+
 *[volutpat]: Tooltip for abbreviation.
