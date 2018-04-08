@@ -75,6 +75,6 @@ In case you were wondering, this site is:
 **Tools:**  Git, SVN, Eclipse, IntelliJ, Postman<br>
 
 
-[**Contact Me**](https://akshaythorve.com/contact/)
+[**Contact Me**](https://akshaythorve.com/contact/) &nbsp [** Resume **](https://akshaythorve.com/resume/)
 
 *[volutpat]: Tooltip for abbreviation.
