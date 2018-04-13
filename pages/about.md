@@ -53,7 +53,7 @@ I enjoy programming applications see them running in production environment. I l
 **I am actively looking for `Full-Time job opportunities` starting July 2018. Drop me an [email](mailto:thorveakshay@gmail.com?subject=Job%20Opportunity&body=Hello%20Akshay,%0D%0A) if your organization is looking for a passionate engineer. I am also open for a quick chat on [LinkedIn](https://www.linkedin.com/in/akshaythorve).**
 
 ## About the site
-This URL has been my online home for many years. I started my 1st static portfolio website on Wordpress then moved it to HTML, CSS and, JS to make it more responsive. Today integrating blog using Jekyll to share my development related work.
+This URL has been my online home for many years. I started my 1st static portfolio website on Wordpress then moved it to HTML, CSS and, JS to make it more responsive. Today, integrating blog using Jekyll to share my development related work.
 
 In case you were wondering, this site is:
 
@@ -61,6 +61,7 @@ In case you were wondering, this site is:
 * Coded with Atom
 * Built on [Jekyll](https://jekyllrb.com/) the open source static site generator
 * Hosted on [GitHub Pages](https://pages.github.com/)
+* CDN/Firewall/Caching/DNS Mapping  [Cloudflare](https://www.cloudflare.com/)
 
 ## Technical Skills
 
@@ -69,12 +70,12 @@ In case you were wondering, this site is:
 **Databases:** MongoDB, Redis, SQL, NoSQL<br>
 **Web Technologies:** RESTful, JSON, HTML5, CSS3, JavaScript, XML, JSP, Servlets, Mustache, Flask, Unix, Linux, TCP/IP<br>
 **Methodologies:** Agile, Scrum, Waterfall<br>
-**Cloud:** Amazon Web Services (AWS), Okta, Google, Twitter API<br>
+**Cloud:** Amazon Web Services (AWS), Okta, Google API's, Twitter API<br>
 **Build Tools:** Jenkins, Maven, Ant, Docker<br>
 **Application Servers:** IBM WebSphere, Tomcat, WebLogic, Apache.<br>
 **Tools:**  Git, SVN, Eclipse, IntelliJ, Postman<br>
 
 
-[**Contact Me**](https://akshaythorve.com/contact/) &nbsp [** Resume **](https://akshaythorve.com/resume/)
+[**Contact Me**](https://akshaythorve.com/contact/) | [**Resume**](https://akshaythorve.com/resume/)
 
 *[volutpat]: Tooltip for abbreviation.

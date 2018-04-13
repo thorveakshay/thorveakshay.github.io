@@ -1,8 +1,9 @@
 ---
 layout: default
 permalink: index.html
-title: Personal Homepage of Akshay Thorve
-description: "Blogging on my passion"
+title: Akshay Thorve | Experienced Software Engineer - Seeking Full Time job
+description: "Blogging on my passion | Are you looking for a experienced, passionate developer with diverse skill set? You are at right place! Please, go through my profile, and let me know if I am a good fit for you.
+Tech: Java, AWS, Adobe AEM, RESTful, Python, Cloud Technologies, SQL, NOSQL, Agile, Backend developer, web developer"
 ---
 
 # Passionate Software Engineer
