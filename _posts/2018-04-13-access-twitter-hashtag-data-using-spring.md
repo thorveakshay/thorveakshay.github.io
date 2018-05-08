@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spring Social Twitter Example"
+title: "Access Twitter Hashtag data using Spring Social"
 date: "2018-04-13"
 slug: "access-twitter-hashtag-data-using-spring"
 description: "Spring Social Twitter Example - access-twitter-hashtag-data"
@@ -27,8 +27,6 @@ summaryfeed: false
 
 This is simple Spring Social Twitter Example to access twitter hashtag data.
 I am using Java, Spring, Twitter API and REST API endpoint
-Code is available on below link.
-GitHub: <https://github.com/thorveakshay/access-twitter-hashtag-data-using-spring>
 
 <!--more-->
 
@@ -53,6 +51,10 @@ public class TwitterController {
 
 {% endhighlight %}
 
+## GitHub
+Code is available on below link.
+GitHub: <https://github.com/thorveakshay/access-twitter-hashtag-data-using-spring>
+
 ## Deployment
 
 -   Clone this github repo
@@ -67,11 +69,7 @@ public class TwitterController {
 
  Steps:
 
--   Go to Spring Stater
-
-
-    https://start.spring.io/
-
+-   Go to Spring Stater `https://start.spring.io/`
 -   Select spring version Spring Boot
 -   Fill the Project Metadata
 -   Click on Switch to the full version link below generate project button.
@@ -109,7 +107,3 @@ Below are snapshot. Do whatever you want to achieve with this data.
 
 <img src="https://akshaythorve.com/images/projects/smile.png" width="100%" >
 
-## Acknowledgments
-
--   Philip Starritt
--   Link: <https://youtu.be/c1tzxlcpkUA>
