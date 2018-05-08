@@ -6,7 +6,6 @@ slug: "access-twitter-hashtag-data-using-spring"
 description: "Spring Social Twitter Example - access-twitter-hashtag-data"
 category:
   - Java
-  - featured
 # tags will also be used as html meta keywords.
 tags:
   - Spring Boot
