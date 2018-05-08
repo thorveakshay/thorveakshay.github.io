@@ -9,11 +9,12 @@ category:
   - featured
   - Personal Projects
   - Application Security
-  
+  - Big data
 # tags will also be used as html meta keywords.
 tags:
   - Java
   - Amazon Web Services (AWS)
+  - Unix / Linux
 show_meta: true
 comments: true
 mathjax: true

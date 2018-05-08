@@ -11,6 +11,12 @@ category:
 tags:
   - Python
   - Amazon Web Services (AWS)
+  - NGINX
+  - microservices
+  - MongoDB
+  - Redis
+  - RESTful
+  - Unix / Linux
 show_meta: true
 comments: true
 mathjax: true

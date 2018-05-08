@@ -5,12 +5,13 @@ date: "2017-05-15"
 slug: "data-mining-python-mysql-tableau-aws"
 description: "Data mining using Python, MySQL and tableau deployed on AWS Ubuntu (Linux)."
 category:
-  - Java
-  - featured
+  - Python
 # tags will also be used as html meta keywords.
 tags:
-  - Java
-  - AWS
+  - Python
+  - MySQL
+  - Tableau
+  - Big data
 show_meta: true
 comments: true
 mathjax: true
