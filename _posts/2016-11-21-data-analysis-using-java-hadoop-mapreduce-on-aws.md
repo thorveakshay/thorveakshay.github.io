@@ -7,6 +7,9 @@ description: "Statistical representation of data using Hadoop MapReduce on AWS"
 category:
   - Java
   - featured
+  - Personal Projects
+  - Application Security
+  
 # tags will also be used as html meta keywords.
 tags:
   - Java
@@ -73,4 +76,3 @@ Other Functionality: Google reCAPTCHA 2.0, Google Charts
 
 
 Thank you!
- </div>
