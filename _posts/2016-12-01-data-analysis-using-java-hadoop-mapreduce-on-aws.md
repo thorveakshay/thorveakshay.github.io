@@ -10,7 +10,7 @@ category:
 # tags will also be used as html meta keywords.
 tags:
   - Java
-  - AWS
+  - Amazon Web Services (AWS)
 show_meta: true
 comments: true
 mathjax: true

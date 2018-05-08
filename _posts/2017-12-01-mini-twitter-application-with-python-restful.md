@@ -5,12 +5,12 @@ date: "2018-03-04"
 slug: "mini-twitter-application-with-python-restful"
 description: "Data mining using Python, MySQL and tableau deployed on AWS Ubuntu (Linux)."
 category:
-  - Java
+  - Python
   - featured
 # tags will also be used as html meta keywords.
 tags:
-  - Java
-  - AWS
+  - Python
+  - Amazon Web Services (AWS)
 show_meta: true
 comments: true
 mathjax: true

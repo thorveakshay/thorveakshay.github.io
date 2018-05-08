@@ -93,6 +93,8 @@ links:
   #   external: true
   - title: <i class="iconside iconm-envelop"></i> Contact
     url: /contact/
+  - title: <i class="fa fa-tags"></i> Resume
+      url: /resume/
   - title: <i class="iconside iconm-linkedin"></i> LinkedIn
     url: https://www.linkedin.com/in/akshaythorve
     external: true

@@ -9,9 +9,9 @@ category:
   - featured
 # tags will also be used as html meta keywords.
 tags:
-  - spring
-  - java
-  - API
+  - Spring Boot
+  - Java
+  - RESTful API
 show_meta: true
 comments: true
 mathjax: true
