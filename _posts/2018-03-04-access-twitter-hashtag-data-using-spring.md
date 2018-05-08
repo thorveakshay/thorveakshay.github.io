@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spring Social Twitter Example"
-date: "2018-03-04"
+date: "2018-04-13"
 slug: "access-twitter-hashtag-data-using-spring"
 description: "Spring Social Twitter Example - access-twitter-hashtag-data"
 category:

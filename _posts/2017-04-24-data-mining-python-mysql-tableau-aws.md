@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Data mining using Python, MySQL and tableau"
-date: "2018-03-04"
+date: "2017-05-15"
 slug: "data-mining-python-mysql-tableau-aws"
 description: "Data mining using Python, MySQL and tableau deployed on AWS Ubuntu (Linux)."
 category:

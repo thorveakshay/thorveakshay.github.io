@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Full-stack project - mini twitter application with RESTful API"
-date: "2018-03-04"
+date: "2017-12-10"
 slug: "mini-twitter-application-with-python-restful"
 description: "Data mining using Python, MySQL and tableau deployed on AWS Ubuntu (Linux)."
 category:

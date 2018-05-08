@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Statistical representation of data using Hadoop MapReduce on AWS"
-date: "2018-03-04"
+date: "2016-11-21"
 slug: "data-analysis-using-java-hadoop-mapreduce-on-aws"
 description: "Statistical representation of data using Hadoop MapReduce on AWS"
 category:
