@@ -30,9 +30,7 @@ summaryfeed: false
 Simple Okta OAuth 2 authentication application with Login and Logout. This app can be intigrated with any Java, Spring or backend framework. You can extend this as per your needs.
 
 <!--more-->
-
-
-# Okta Oauth2 login using Spring Boot   
+  
 
 ## Spring Boot, OAuth2 Authentication, Okta API
 
