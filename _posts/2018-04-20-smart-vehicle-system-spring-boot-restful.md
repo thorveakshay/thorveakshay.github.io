@@ -25,7 +25,7 @@ hide_printmsg: false
 summaryfeed: false
 ---
 
-Simple Okta OAuth 2 authentication application with Login and Logout. This app can be integrated with any Java, Spring or backend framework. You can extend this as per your needs.
+Implementing sample CRUD application in Spring boot and H2 database. Demonstrating RESTful client server communication, Unit testing, server-side validations and standard coding practices. 
 
 <!--more-->
   
@@ -164,7 +164,8 @@ DELETE request on --> http://localhost:8080/vehicles/4
 ### Unit Test Result
 <img src="https://akshaythorve.com/images/projects/smart-vehicle/UnitTestResult.png" width="100%" >
 
-
-
+## GitHub
+Code is available on below link.
+https://github.com/thorveakshay/smart-vehicle-system
 
 Feel free to use the code.
