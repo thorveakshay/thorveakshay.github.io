@@ -51,10 +51,6 @@ There are three basic steps.
 1. Gather behavioral data
 2. Process data
 3. Show results or Insights
-
-## Github:
-
- https://github.com/thorveakshay/iAm-Behavioral-Analytics-Application-Spring-Boot
  
 ## Technologies
 
@@ -131,16 +127,15 @@ MongoDB(some features) is not working as I am using free version of Heroku.
 
 <img src="https://akshaythorve.com/images/projects/iAm/survey-page.png" width="100%" >
 
-### Tweets
-
-<img src="https://akshaythorve.com/images/projects/iAm/tweets.png" width="100%" >
 
 ### Project Structure
 
-<img src="https://akshaythorve.com/images/projects/iAm/project1.png" width="100%" >
+<img src="https://akshaythorve.com/images/projects/iAm/project1.png" width="60%" >
 
-<img src="https://akshaythorve.com/images/projects/iAm/project2.png" width="100%" >
+<img src="https://akshaythorve.com/images/projects/iAm/project2.png" width="60%" >
 
+### Mongo Storage
+<img src="https://akshaythorve.com/images/projects/iAm/mongo.png" width="100%" >
 
 
 
@@ -156,6 +151,9 @@ Bear - Controller/Director
 ### Displaying Twitter feeds based on user inputs
 Relevant Tweets / News Feed
 
-<img src="https://akshaythorve.com/images/projects/iAm/mongo.png" width="100%" >
+<img src="https://akshaythorve.com/images/projects/iAm/tweets.png" width="100%" >
+
+## Source Code
+Github: https://github.com/thorveakshay/iAm-Behavioral-Analytics-Application-Spring-Boot
 
 Thank you!
