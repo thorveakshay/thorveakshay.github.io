@@ -88,3 +88,43 @@ The backend server will start at <http://localhost:8080>.
 Deployed on: https://iam-app.herokuapp.com/
 
 MongoDB(some features) is not working as I am using free version of Heroku.
+
+## Snapshots
+
+### Landing page
+<img src="https://akshaythorve.com/images/projects/iAm/landing-page.png" width="100%" >
+
+
+### Home page
+
+<img src="https://akshaythorve.com/images/projects/iAm/home.png" width="100%" >
+
+
+### Profile page
+
+<img src="https://akshaythorve.com/images/projects/iAm/home2.png" width="100%" >
+
+### In-house algorithm 
+
+<img src="https://akshaythorve.com/images/projects/iAm/algorithm.png" width="100%" >
+
+### Navigation
+
+<img src="https://akshaythorve.com/images/projects/iAm/navigation.png" width="100%" >
+
+### Okta authentication and login
+
+<img src="https://akshaythorve.com/images/projects/iAm/okta-login.png" width="100%" >
+
+### Running app using maven
+
+<img src="https://akshaythorve.com/images/projects/iAm/running-app.png" width="100%" >
+
+### Survey Page
+
+<img src="https://akshaythorve.com/images/projects/iAm/survey-page.png" width="100%" >
+
+### Tweets
+
+<img src="https://akshaythorve.com/images/projects/iAm/tweets.png" width="100%" >
+
