@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AEM Toys Store Website"
-date: "2018-04-25"
+date: "2018-01-03"
 slug: "AEM-toys-store-website"
 description: "AEM Toys Store Website"
 category:
@@ -42,19 +42,18 @@ AEM 6.0 +
 
 ### Snapshots
 
-```
-Website UI
-```
+
+## Website UI
 <img src="https://akshaythorve.com/images/projects/AEM-toy-store/AEM+toys-website.png" width="100%" >
 
-```
-Bracket Editor + AEM + Synchronization 
-```
+
+## Bracket Editor + AEM + Synchronization 
+
 <img src="https://akshaythorve.com/images/projects/AEM-toy-store/Bracket+AEM.png" width="100%" >
 
-```
-CRXDE|Lite Setup
-```
+
+## CRXDE|Lite Setup
+
 <img src="https://akshaythorve.com/images/projects/AEM-toy-store/CRXDE-Lite.png" width="100%" >
 
 

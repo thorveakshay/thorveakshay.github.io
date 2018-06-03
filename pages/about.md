@@ -66,7 +66,7 @@ In case you were wondering, this site is:
 ## Technical Skills
 
 **Languages:** Java, Python	<br>
-**Frameworks:**  Spring MVC, Spring-boot, Hibernate, REST, Hadoop.<br>
+**Frameworks:**  Spring MVC, Spring boot, Hibernate, REST, Hadoop, Adobe Experience Manager (AEM)<br>
 **Databases:** MongoDB, Redis, SQL, NoSQL<br>
 **Web Technologies:** RESTful, JSON, HTML5, CSS3, JavaScript, XML, JSP, Servlets, Mustache, Flask, Unix, Linux, TCP/IP<br>
 **Methodologies:** Agile, Scrum, Waterfall<br>
