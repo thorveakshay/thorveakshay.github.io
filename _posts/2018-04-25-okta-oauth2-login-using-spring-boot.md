@@ -45,9 +45,6 @@ Simple Okta OAuth 2 authentication application with Login and Logout. This app c
 
 4.  Okta developer App
 
-## GitHub
-https://github.com/thorveakshay/okta-oauth2-login-using-spring-boot
-
 ## Steps to Setup
 
 ** 1. Clone the application repo **
@@ -158,5 +155,7 @@ System.out.println("Authentication Object is: "+ properties);
 }
 {% endhighlight %}
 
+## GitHub
+https://github.com/thorveakshay/okta-oauth2-login-using-spring-boot
 
 Feel free to use the code.
