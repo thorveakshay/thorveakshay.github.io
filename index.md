@@ -1,17 +1,16 @@
 ---
 layout: default
 permalink: index.html
-title: Akshay Thorve | Experienced Software Engineer - Seeking Full Time job
+title: Akshay Thorve | Passionate Software Engineer
 description: "Blogging on my passion | Are you looking for a experienced, passionate developer with diverse skill set? You are at right place! Please, go through my profile, and let me know if I am a good fit for you.
 Tech: Java, AWS, Adobe AEM, RESTful, Python, Cloud Technologies, SQL, NOSQL, Agile, Backend developer, web developer"
 ---
 
 # Passionate Software Engineer
- Currently seeking full time job as Software Engineer, Full Stack Developer
+ Currently working in core payments team at PayPal, Inc.
 
 ### Quick summary about me
-* Professional experience of <strong> 4+ years </strong> in
-<a href="https://en.wikipedia.org/wiki/Tata_Consultancy_Services" target="_blank" title="TCS"><strong>TCS</strong>.</a>
+* Professional experience of <strong> 5+ years </strong>
 * Full-Stack developer, with an emphasis on designing scalable services in `Java/J2EE` & `Python` stack.
 * Project methodologies `Agile`, `Scrum`, `XP`, and `Waterfall`.
 * Expert at translating business requirements into technical solutions.
@@ -60,7 +59,7 @@ Tech: Java, AWS, Adobe AEM, RESTful, Python, Cloud Technologies, SQL, NOSQL, Agi
 </div>
 <h3 class="post-title">
 <div class="pagination" style="margin: 0.5rem;">
-    <a class="pagination-item older" href="{{ site.url }}/blog"><i class="fa fa-edit"> Blog</i></a>
-    <a class="pagination-item newer" href="{{ site.url }}/tags"><i class="fa fa-tags"> Tags</i></a>
+    <a class="pagination-item older" href="{{ site.url }}/blog"><i class="fa fa-edit"> View all Projects</i></a>
+    <a class="pagination-item newer" href="{{ site.url }}/tags"><i class="fa fa-tags"> Projects by Tags</i></a>
 </div>
 </h3>
