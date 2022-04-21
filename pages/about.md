@@ -6,7 +6,7 @@ show_meta: true
 # imagefeature path is relative to images/ directory.
 imagefeature: foo.png
 published: true
-description: "Are you looking for a experienced, passionate developer with diverse skill set? You are at right place! Please, go through my profile, and let me know if I am a good fit for you.."
+description: "Are you looking for an experienced, passionate developer with diverse skill set? You are at right place! Please, go through my profile, and let me know if I am a good fit for you."
 category: views
 comments: false
 mathjax: false
@@ -15,12 +15,12 @@ sitemap:
     priority: 0.7
     changefreq: 'monthly'
     lastmod: 2016-02-13
-# tags will be used as html meta keywords.    
+# tags will be used as html meta keywords.
 tags:
   - "Akshay Thorve"
 ---
 
-<div class="post-author text-center">                       
+<div class="post-author text-center">
             <img src="{{ site.urlimg }}{{ site.owner.avatar }}" alt="{{ site.owner.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/>
 <span class="social-icons" style="padding-top: 10px; padding-bottom: 1px;">
 <a href="{{ site.url }}/resume" title="Resume" target="_blank" class="social-icons"><i class="iconm iconm-profile" style="vertical-align: top;"></i></a>
@@ -30,9 +30,9 @@ tags:
 </div>
 ## Software Engineer at PayPal. Designing and developing PayPal’s payment platform.
 
-I am Akshay Thorve, a full-stack software developer living and working in **San Francisco Bay Area**. Originally from India, I completed my Bachelor of Engineering in **top 5%** of class in 2012. I received an employment offer from [**TCS**](https://en.wikipedia.org/wiki/Tata_Consultancy_Services). * I worked in TCS for 4 years where I designed and developed dozens of projects. I am currently working at [**PayPal, Inc.**](https://www.paypal.com/us/home) in **Core Payments Team**. 
+I am Akshay Thorve, a full-stack software developer living and working in **San Francisco Bay Area**. Originally from India, I completed my Bachelor of Engineering in **top 5%** of class in 2012. I received an employment offer from [**TCS**](https://en.wikipedia.org/wiki/Tata_Consultancy_Services). * I worked in TCS for 4 years where I designed and developed dozens of projects. I am currently working at [**PayPal, Inc.**](https://www.paypal.com/us/home) in **Core Payments Team**.
 
-I am passionate about `Software design`, `architecture`, and `engineering`. 
+I am passionate about `Software design`, `architecture`, and `engineering`.
 As a *Systems Engineer* at TCS, I Executed projects as a *Full-Stack developer*, with an emphasis on designing scalable services in Java/J2EE & Python.
 * I worked on developing end to end order search functionality and report generation API for **Toys"R"us**.
 * My team and I designed and developed **Mitsubishi** Plant Manager, Supervisor dashboards which resulted in forming `TCS-Mitsubishi $600 million joint venture.`{:.yelhglt}
