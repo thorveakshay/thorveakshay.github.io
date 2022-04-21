@@ -11,7 +11,7 @@ noindex: false
 sitemap:
     priority: 0.5
     changefreq: 'monthly'
-    lastmod: 2018-02-13
+    lastmod: 2022-04-20
 tags:
   - "Akshay Thorve"
   - address
@@ -20,8 +20,8 @@ tags:
 | <i class="fa fa-paper-plane">  | thorveakshay@gmail.com |
 | - | :- |
 | <i class="fa fa-linkedin">  | https://www.linkedin.com/in/akshaythorve |
-| - | :- |  
-| <i class="fa fa-envelope"></i> | Akshay Thorve<br>444 Saratoga ave<br>Santa Clara, CA 92831 <br> <em>For the right opportunity, I am definitely willing to relocate.</em> <i class="fa fa-plane"> </i> |
+| - | :- |
+| <i class="fa fa-envelope"></i> | Akshay Thorve<br>Santa Clara, CA 95050 <br> <em>For the right opportunity, I am definitely willing to relocate.</em> <i class="fa fa-plane"> </i> |
 | - | :- |
 | <i class="fa fa-twitter"></i> | [@{{ site.owner.twitter }}](https://twitter.com/{{ site.owner.twitter }})  |
 | - | :- |
