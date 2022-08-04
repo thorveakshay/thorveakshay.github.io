@@ -10,7 +10,7 @@ Tech: Java, AWS, Adobe AEM, RESTful, Python, Cloud Technologies, SQL, NOSQL, Agi
  Currently working in core payments team at PayPal, Inc.
 
 ### Quick summary about me
-* Professional experience of <strong> 5+ years </strong>
+* Professional experience of <strong> 8+ years </strong>
 * Full-Stack developer, with an emphasis on designing scalable services in `Java/J2EE` & `Python` stack.
 * Project methodologies `Agile`, `Scrum`, `XP`, and `Waterfall`.
 * Expert at translating business requirements into technical solutions.
