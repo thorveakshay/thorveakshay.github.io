@@ -25,19 +25,88 @@ hide_printmsg: false
 summaryfeed: false
 ---
 There are three types of analytics Descriptive analytics, Predictive analytics, and Prescriptive analytics. The goal of project was to design an application to perform data mining on Hospital data set to improve
-Hospital infection control. Primary objective of this project is to understand <strong>Data mining using Python, MySQL, Tableau, Amazon Web Services (AWS) cloud infrastructure </strong> and learn to configure the Infrastructure, Software and application layer for it.<br />
+Hospital infection control. Primary objective of this project is to understand **Data mining using Python, MySQL, Tableau, Amazon Web Services (AWS) cloud infrastructure** and learn to configure the Infrastructure, Software and application layer for it.
 
 <!--more-->
 
 
-<h3>Data mining using Python, MySQL and tableau deployed on AWS Ubuntu (Linux).<br /><br /></h3>
+## Technical Deep Dive: The Classic ETL Architecture
 
+This data pipeline represents a standard 2017 approach to analytics infrastructure, built on the familiar ETL (Extract, Transform, Load) pattern.
 
-  <strong>Infection Score table data </strong>
-  <br /> <img src="https://akshaythorve.com/images/works/Infection Score table data.jpg" alt="" class="img-responsive" />
-  <br />
-  <br />
-  <strong>Infection chart </strong>
-  <img src="https://akshaythorve.com/images/works/Infection chart.jpg" alt="" class="img-responsive" />
-  <br />
-  <br />
+### Pipeline Architecture
+
+```mermaid
+flowchart LR
+    A[Hospital Data CSV] -->|Python Scripts| B[Data Cleaning]
+    B -->|MySQL INSERT| C[MySQL Database]
+    C -->|ODBC/JDBC| D[Tableau Desktop]
+    D --> E[Dashboards]
+```
+
+### Technology Choices
+
+**Extract & Transform (Python on EC2):**  
+Python scripts handled parsing hospital infection CSV files and data sanitization before database insertion.
+
+**Load (MySQL as Warehouse):**  
+MySQL served dual purposes—operational storage and analytics. While traditionally an OLTP database, for datasets under a few million rows it was cost-effective.
+
+**Analyze (Tableau):**  
+Tableau connected directly to MySQL via JDBC, enabling drag-and-drop dashboard creation.
+
+---
+
+## Modern Approach (2026)
+
+The data engineering field has undergone a fundamental transformation with the Modern Data Stack.
+
+### Cloud Data Warehouses
+
+**2017 Constraint:** MySQL row-oriented storage struggled with analytical queries on larger datasets.
+
+**2026 Solution:** Columnar databases purpose-built for analytics:
+- **Snowflake:** Separates compute from storage, auto-scaling
+- **BigQuery:** Serverless SQL on petabyte-scale data  
+- **Databricks:** Unified analytics and ML platform
+
+### ELT over ETL
+
+**2017 (ETL):** Transform data in Python *before* loading.
+
+**2026 (ELT):** Load raw data, transform with **dbt**:
+
+```sql
+-- models/infections_clean.sql
+SELECT 
+    hospital_id,
+    TO_DATE(date, 'YYYY-MM-DD') AS report_date,
+    infection_count
+FROM {{ source('raw', 'hospital_data') }}
+WHERE infection_count IS NOT NULL
+```
+
+### Orchestration Evolution
+
+**2017:** `cron` jobs on a single server.
+
+**2026:** **Apache Airflow** with monitoring:
+
+```python
+with DAG('hospital_pipeline', schedule='@daily') as dag:
+    extract >> transform >> load
+```
+
+---
+
+## Data mining using Python, MySQL and tableau deployed on AWS Ubuntu (Linux).
+
+### Infection Score table data
+<br /> <img src="https://akshaythorve.com/images/works/Infection Score table data.jpg" alt="" class="img-responsive" />
+<br />
+<br />
+
+### Infection chart
+<img src="https://akshaythorve.com/images/works/Infection chart.jpg" alt="" class="img-responsive" />
+<br />
+<br />
