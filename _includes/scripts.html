@@ -34,19 +34,14 @@
       theme: 'default'
     });
 
-    // Find all code blocks that might be mermaid
-    // Jekyll/Kramdown outputs: <div class="language-mermaid highlighter-rouge">
-    var mermaidContainers = document.querySelectorAll('.language-mermaid');
+    // Find all code blocks with language-mermaid class
+    // Jekyll/Kramdown outputs: <pre><code class="language-mermaid">...</code></pre>
+    var codeBlocks = document.querySelectorAll('code.language-mermaid');
 
-    if (mermaidContainers.length === 0) return;
+    if (codeBlocks.length === 0) return;
 
-    // Process each container
-    mermaidContainers.forEach(function (container, index) {
-      // Find the code element inside
-      var codeElement = container.querySelector('pre code') || container.querySelector('code');
-
-      if (!codeElement) return;
-
+    // Process each code block
+    codeBlocks.forEach(function (codeElement, index) {
       // Get the mermaid code
       var code = codeElement.textContent;
 
@@ -56,8 +51,11 @@
       div.textContent = code;
       div.id = 'mermaid-diagram-' + index;
 
-      // Replace the entire container
-      container.replaceWith(div);
+      // Replace the parent <pre> element
+      var preElement = codeElement.parentElement;
+      if (preElement && preElement.tagName === 'PRE') {
+        preElement.replaceWith(div);
+      }
     });
 
     // Now render all mermaid diagrams
