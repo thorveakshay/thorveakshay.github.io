@@ -35,18 +35,18 @@ I am using Java, Spring, Twitter API and REST API endpoint
 @RestController
 @RequestMapping(TwitterController.TWITTER_BASE_URI)
 public class TwitterController {
-	public static final String TWITTER_BASE_URI="tweets";
+    public static final String TWITTER_BASE_URI="tweets";
 
     @Autowired
     private Twitter twitter;
 
     @RequestMapping(value="{hashTag}", produces=MediaType.APPLICATION_JSON_UTF8_VALUE)
     public List<Tweet> getTweets(@PathVariable final String hashTag){
-    	return twitter.searchOperations().search(hashTag, 25).getTweets();
-    	//25 is the number of tweets, you can put whatever number you want.
+        return twitter.searchOperations().search(hashTag, 25).getTweets();
+        //25 is the number of tweets, you can put whatever number you want.
     }
-
 }
+
 ```
 
 ## Technical Deep Dive: Spring Social Abstraction Layer
