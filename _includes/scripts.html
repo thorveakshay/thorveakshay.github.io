@@ -27,16 +27,41 @@
 <!-- MermaidJS support -->
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var mermaidBlocks = document.querySelectorAll('pre code.language-mermaid');
+
+  // Configure mermaid
+  mermaid.initialize({
+    startOnLoad: false, // We will manually run it after converting code blocks
+    theme: 'default'
+  });
+
+  document.addEventListener('DOMContentLoaded', async function () {
+    // Select all code blocks that might be mermaid
+    // Jekyll often outputs: <div class="language-mermaid">...<pre><code>...
+    // Or: <pre><code class="language-mermaid">...
+    var mermaidBlocks = document.querySelectorAll('pre code.language-mermaid, .language-mermaid pre code');
+
+    if (mermaidBlocks.length === 0) return;
+
+    // Convert them to <div class="mermaid">
     mermaidBlocks.forEach(function (block) {
       var div = document.createElement('div');
       div.className = 'mermaid';
       div.textContent = block.textContent;
-      block.parentNode.replaceWith(div);
+
+      // Find the container to replace
+      // If inside <pre>, replace the <pre>
+      // If inside <div class="highlighter-rouge">, replace that
+      var container = block.closest('div.highlighter-rouge') || block.closest('pre');
+      if (container) {
+        container.replaceWith(div);
+      } else {
+        block.replaceWith(div);
+      }
+    });
+
+    // Run mermaid on the new .mermaid elements
+    await mermaid.run({
+      nodes: document.querySelectorAll('.mermaid')
     });
   });
 </script>
