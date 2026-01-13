@@ -18,7 +18,7 @@ This project is a static website and blog for **Akshay Thorve**, built using **J
 *   **Site Metadata:** Title, author, description, URL, social links.
 *   **Navigation:** Defined in `links` array (mapped to sidebar).
 *   **Plugins:** `github-pages`, `font-awesome-sass`, `jekyll-redirect-from`, `jekyll-mentions`.
-*   **External IDs:** Google Analytics, Disqus, Twitter Widget, Google Custom Search.
+*   **External IDs:** Google Analytics, Giscus (GitHub Discussions), Twitter Widget, Google Custom Search.
 *   **Permalinks:** `/blog/:year/:month/:day/:title/`
 
 ### `_data/`
@@ -89,7 +89,7 @@ This project is a static website and blog for **Akshay Thorve**, built using **J
 *   **Build Production:** `bundle exec jekyll build`
 
 ## External Integrations
-*   **Comments:** Disqus (Shortname: `thorveakshay`)
+*   **Comments:** Giscus (GitHub Discussions-based, privacy-friendly)
 *   **Search:** Google Custom Search (CSE)
 *   **Analytics:** Google Analytics (configured in `_config.yml`)
 *   **Social:** Twitter Widgets, FontAwesome icons.

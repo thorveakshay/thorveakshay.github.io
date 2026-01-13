@@ -1,1 +1,47 @@
 /*CSS pending minification*/
+
+/* Reduce excessive whitespace between sections */
+.related {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+}
+
+.prevnext {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.page-break {
+    margin: 1rem 0;
+}
+
+/* Giscus Comments Styling */
+.comments-section {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 2px solid #eee;
+}
+
+.giscus,
+.giscus-frame {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Ensure comments section doesn't overflow on mobile */
+@media (max-width: 48em) {
+    .comments-section {
+        margin-top: 1.5rem;
+        padding-top: 1.5rem;
+    }
+
+    .related {
+        padding-top: 1rem;
+    }
+}
+
+/* Smooth scroll for anchor links */
+html {
+    scroll-behavior: smooth;
+}

@@ -109,8 +109,20 @@ google_search: AIzaSyDC_xqGf8YdQAyVsAE4JtKFO0SvjGJX574
 # Replace xyz123abc with your twitter widget id from https://twitter.com/settings/widgets
 twitter_widget_id: 981788532019576832
 
-# Add disqus username for Disqus comment board:
-disqus_shortname: thorveakshay
+# Giscus comments (GitHub Discussions-based)
+giscus:
+  repo: thorveakshay/thorveakshay.github.io
+  repo-id: MDEwOlJlcG9zaXRvcnkxMjgyNjQ5Nzg=
+  category: Comments
+  category-id: DIC_kwDOB6UrEs4C05TG
+  mapping: pathname
+  strict: 0
+  reactions-enabled: 0
+  emit-metadata: 0
+  input-position: bottom
+  theme: light
+  lang: en
+  loading: lazy
 
 # Analytics and webmaster tools stuff goes here
 #google_analytics:   xyz123abc
