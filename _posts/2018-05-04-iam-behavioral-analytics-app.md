@@ -89,48 +89,48 @@ MongoDB(some features) is not working as I am using free version of Heroku.
 ## Snapshots
 
 ### Home Page of Website
-<img src="https://akshaythorve.com/images/projects/iAm/landing-page.png" width="100%" >
+<img src="/images/projects/iAm/landing-page.png" width="100%" >
 
 
 ### Navigation
 
-<img src="https://akshaythorve.com/images/projects/iAm/navigation.png" width="100%" >
+<img src="/images/projects/iAm/navigation.png" width="100%" >
 
 ### In-house Algorithm in JAVA Spring-Boot
 
-<img src="https://akshaythorve.com/images/projects/iAm/algorithm.png" width="100%" >
+<img src="/images/projects/iAm/algorithm.png" width="100%" >
 
 ### OAuth2 Authentication of the user using Okta API
 
-<img src="https://akshaythorve.com/images/projects/iAm/okta-login.png" width="100%" >
+<img src="/images/projects/iAm/okta-login.png" width="100%" >
 
 ### Running app using maven
 
-<img src="https://akshaythorve.com/images/projects/iAm/running-app.png" width="100%" >
+<img src="/images/projects/iAm/running-app.png" width="100%" >
 
 ### Home page
 
-<img src="https://akshaythorve.com/images/projects/iAm/home.png" width="100%" >
+<img src="/images/projects/iAm/home.png" width="100%" >
 
 
 ### Profile page
 
-<img src="https://akshaythorve.com/images/projects/iAm/home2.png" width="100%" >
+<img src="/images/projects/iAm/home2.png" width="100%" >
 
 
 ### Survey website and Questions
 
-<img src="https://akshaythorve.com/images/projects/iAm/survey-page.png" width="100%" >
+<img src="/images/projects/iAm/survey-page.png" width="100%" >
 
 
 ### Project Structure
 
-<img src="https://akshaythorve.com/images/projects/iAm/project1.png" width="60%" >
+<img src="/images/projects/iAm/project1.png" width="60%" >
 
-<img src="https://akshaythorve.com/images/projects/iAm/project2.png" width="60%" >
+<img src="/images/projects/iAm/project2.png" width="60%" >
 
 ### Mongo Storage
-<img src="https://akshaythorve.com/images/projects/iAm/mongo.png" width="100%" >
+<img src="/images/projects/iAm/mongo.png" width="100%" >
 
 
 
@@ -146,7 +146,7 @@ Bear - Controller/Director
 ### Displaying Twitter feeds based on user inputs
 Relevant Tweets / News Feed
 
-<img src="https://akshaythorve.com/images/projects/iAm/tweets.png" width="100%" >
+<img src="/images/projects/iAm/tweets.png" width="100%" >
 
 ## Source Code
 Github: https://github.com/thorveakshay/iAm-Behavioral-Analytics-Application-Spring-Boot

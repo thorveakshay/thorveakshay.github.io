@@ -82,7 +82,7 @@ SELECT
     hospital_id,
     TO_DATE(date, 'YYYY-MM-DD') AS report_date,
     infection_count
-FROM {{ source('raw', 'hospital_data') }}
+FROM {% raw %}{{ source('raw', 'hospital_data') }}{% endraw %}
 WHERE infection_count IS NOT NULL
 ```
 
@@ -102,11 +102,8 @@ with DAG('hospital_pipeline', schedule='@daily') as dag:
 ## Data mining using Python, MySQL and tableau deployed on AWS Ubuntu (Linux).
 
 ### Infection Score table data
-<br /> <img src="https://akshaythorve.com/images/works/Infection Score table data.jpg" alt="" class="img-responsive" />
-<br />
-<br />
+![Infection Score Table](/images/works/Infection%20Score%20table%20data.jpg)
 
 ### Infection chart
-<img src="https://akshaythorve.com/images/works/Infection chart.jpg" alt="" class="img-responsive" />
-<br />
-<br />
+![Infection Chart](/images/works/Infection%20chart.jpg)
+

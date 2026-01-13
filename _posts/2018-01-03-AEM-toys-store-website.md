@@ -44,17 +44,17 @@ AEM 6.0 +
 
 
 ## Website UI
-<img src="https://akshaythorve.com/images/projects/AEM-toy-store/AEM+toys-website.png" width="100%" >
+<img src="/images/projects/AEM-toy-store/AEM+toys-website.png" width="100%" >
 
 
 ## Bracket Editor + AEM + Synchronization 
 
-<img src="https://akshaythorve.com/images/projects/AEM-toy-store/Bracket+AEM.png" width="100%" >
+<img src="/images/projects/AEM-toy-store/Bracket+AEM.png" width="100%" >
 
 
 ## CRXDE Lite Setup
 
-<img src="https://akshaythorve.com/images/projects/AEM-toy-store/CRXDE-Lite.png" width="100%" >
+<img src="/images/projects/AEM-toy-store/CRXDE-Lite.png" width="100%" >
 
 
 ## Technical Deep Dive: The AEM Content Management Stack

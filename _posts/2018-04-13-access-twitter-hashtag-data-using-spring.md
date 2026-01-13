@@ -183,9 +183,9 @@ Below are snapshot. Do whatever you want to achieve with this data.
 
 ### For manutd hashtag
 
-<img src="https://akshaythorve.com/images/projects/manutd.png" width="100%" >
+<img src="/images/projects/manutd.png" width="100%" >
 
 ### For smile hashtag
 
-<img src="https://akshaythorve.com/images/projects/smile.png" width="100%" >
+<img src="/images/projects/smile.png" width="100%" >
 

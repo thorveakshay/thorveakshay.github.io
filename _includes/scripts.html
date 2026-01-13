@@ -2,13 +2,13 @@
 <!-- Asynchronous Google Analytics snippet -->
 <script>
   var _gaq = _gaq || [];
-  var pluginUrl = 
- '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  var pluginUrl =
+    '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
   _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
   _gaq.push(['_setAccount', '{{ site.google_analytics }}']);
   _gaq.push(['_trackPageview']);
 
-  (function() {
+  (function () {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
@@ -18,8 +18,25 @@
 
 <!-- gist embed -->
 {% if page.gistembed %}
-  {% include gist_embed.html %}
+{% include gist_embed.html %}
 {% endif %}
 
 <!-- disqus comments -->
 {% if page.comments %}{% include disqus_comments.html %}{% endif %}
+
+<!-- MermaidJS support -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var mermaidBlocks = document.querySelectorAll('pre code.language-mermaid');
+    mermaidBlocks.forEach(function (block) {
+      var div = document.createElement('div');
+      div.className = 'mermaid';
+      div.textContent = block.textContent;
+      block.parentNode.replaceWith(div);
+    });
+  });
+</script>

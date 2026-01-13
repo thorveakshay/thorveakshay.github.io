@@ -135,34 +135,34 @@ DELETE request on --> http://localhost:8080/vehicles/4
 ## Snapshots
 
 ### GET one request
-<img src="https://akshaythorve.com/images/projects/smart-vehicle/GET-one-request.png" width="100%" >
+<img src="/images/projects/smart-vehicle/GET-one-request.png" width="100%" >
 
 ### GET Request
-<img src="https://akshaythorve.com/images/projects/smart-vehicle/GET-Request.png" width="100%" >
+<img src="/images/projects/smart-vehicle/GET-Request.png" width="100%" >
 
 
 ### DELETE Request.png
-<img src="https://akshaythorve.com/images/projects/smart-vehicle/DELETE-Request.png" width="100%" >
+<img src="/images/projects/smart-vehicle/DELETE-Request.png" width="100%" >
 
 
 ### POST Request
-<img src="https://akshaythorve.com/images/projects/smart-vehicle/POST-Request.png" width="100%" >
+<img src="/images/projects/smart-vehicle/POST-Request.png" width="100%" >
 
 ### PUT Request
-<img src="https://akshaythorve.com/images/projects/smart-vehicle/PUT-Request.png" width="100%" >
+<img src="/images/projects/smart-vehicle/PUT-Request.png" width="100%" >
 
 ### Test Client
-<img src="https://akshaythorve.com/images/projects/smart-vehicle/Test-Client.png" width="100%" >
+<img src="/images/projects/smart-vehicle/Test-Client.png" width="100%" >
 
 ### High Level Unit Test Coverage
-<img src="https://akshaythorve.com/images/projects/smart-vehicle/HIghLavelUnitTestCoverage.png" width="100%" >
+<img src="/images/projects/smart-vehicle/HIghLavelUnitTestCoverage.png" width="100%" >
 
 
 ### Unit Test coverage
-<img src="https://akshaythorve.com/images/projects/smart-vehicle/UnitTest-coverage.png" width="100%" >
+<img src="/images/projects/smart-vehicle/UnitTest-coverage.png" width="100%" >
 
 ### Unit Test Result
-<img src="https://akshaythorve.com/images/projects/smart-vehicle/UnitTestResult.png" width="100%" >
+<img src="/images/projects/smart-vehicle/UnitTestResult.png" width="100%" >
 
 ## Technical Deep Dive: Application-Layer Validation
 

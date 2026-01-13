@@ -59,17 +59,17 @@ The application will start at <http://localhost:8080>.
 ## Snapshots
 
 ### Landing page
-<img src="https://akshaythorve.com/images/projects/OAuth2/login.png" width="100%" >
+<img src="/images/projects/OAuth2/login.png" width="100%" >
 
 
 ### API authentication on Okta
 
-<img src="https://akshaythorve.com/images/projects/OAuth2/Okta_app_authentication.png" width="100%" >
+<img src="/images/projects/OAuth2/Okta_app_authentication.png" width="100%" >
 
 
 ### Callback to base URL after successful authentication
 
-<img src="https://akshaythorve.com/images/projects/OAuth2/callback_successful_login.png" width="100%" >
+<img src="/images/projects/OAuth2/callback_successful_login.png" width="100%" >
 
 ### Code
 
