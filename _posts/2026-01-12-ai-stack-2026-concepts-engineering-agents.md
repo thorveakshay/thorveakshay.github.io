@@ -19,6 +19,8 @@ comments: true
 mathjax: true
 gistembed: true
 published: true
+redirect_from: 
+  - /blog/2026/01/12/demystifying-ai-concepts/
 ---
 
 Artificial Intelligence has transformed from a futuristic concept into an engineering necessity. However, communicating effectively about AI requires navigating a dense forest of terminology.
