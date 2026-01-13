@@ -29,7 +29,8 @@ hide_printmsg: false
 # show post summary or full post in RSS feed.
 summaryfeed: false
 ---
-Minitwit application is example application that ships with the Flask microframework for Python. It implements a subset of Twitter’s functionality, allowing users to post new messages and follow messages posted by other users.<br />
+Minitwit application is example application that ships with the Flask microframework for Python. It implements a subset of Twitter’s functionality, allowing users to post new messages and follow messages posted by other users.
+
 
 <!--more-->
 
@@ -48,16 +49,15 @@ New features added to MiniTwit
 * **Leaderboard functionality** - most liked Twits will be on top.
 
 
-<br /> <img src="https://akshaythorve.com/images/works/Leaderboard.jpg" alt="" class="img-responsive" />
-<br />
-<br /> <img src="https://akshaythorve.com/images/works/Redis Like Unlike.jpg" alt="" class="img-responsive" />
-<br />
+![Leaderboard](/images/works/Leaderboard.jpg)
+
+![Redis Like/Unlike](/images/works/Redis%20Like%20Unlike.jpg)
+
 <br />
 ### Implemented RESTful API for more than 10 paths with HTTP Authentication
 
-<img src="https://akshaythorve.com/images/works/RESTful API.jpg" alt="" class="img-responsive" />
-<br />
-<br />
+![RESTful API](/images/works/RESTful%20API.jpg)
+
 ## Technical Deep Dive: Flask Microframework Architecture
 
 Flask represents the minimalist approach to web frameworks. Unlike Django's "batteries included" philosophy, Flask provides just the HTTP handling layer.
@@ -162,6 +162,5 @@ Deterministic dependency resolution prevents "works on my machine" issues.
 
 GitHub: <https://github.com/thorveakshay/minitwit-python-app>
 
-<br /> <img src="https://akshaythorve.com/images/works/Redis Like Unlike.jpg" alt="" class="img-responsive" />
+![Redis Like/Unlike](/images/works/Redis%20Like%20Unlike.jpg)
 
-<br />

@@ -18,5 +18,7 @@ end
 group :theme_bj_plugins do
 gem 'execjs', '>= 2.6.0'
 gem 'octopress', '>= 3.0.11'
-gem 'therubyracer', '>= 0.12.2'
+# gem 'therubyracer', '>= 0.12.2'
 end
+
+gem "csv", "~> 3.3"

@@ -89,48 +89,37 @@ MongoDB(some features) is not working as I am using free version of Heroku.
 ## Snapshots
 
 ### Home Page of Website
-<img src="https://akshaythorve.com/images/projects/iAm/landing-page.png" width="100%" >
-
+![Landing Page](/images/projects/iAm/landing-page.png)
 
 ### Navigation
-
-<img src="https://akshaythorve.com/images/projects/iAm/navigation.png" width="100%" >
+![Navigation](/images/projects/iAm/navigation.png)
 
 ### In-house Algorithm in JAVA Spring-Boot
-
-<img src="https://akshaythorve.com/images/projects/iAm/algorithm.png" width="100%" >
+![Algorithm](/images/projects/iAm/algorithm.png)
 
 ### OAuth2 Authentication of the user using Okta API
-
-<img src="https://akshaythorve.com/images/projects/iAm/okta-login.png" width="100%" >
+![Okta Login](/images/projects/iAm/okta-login.png)
 
 ### Running app using maven
-
-<img src="https://akshaythorve.com/images/projects/iAm/running-app.png" width="100%" >
+![Running App](/images/projects/iAm/running-app.png)
 
 ### Home page
-
-<img src="https://akshaythorve.com/images/projects/iAm/home.png" width="100%" >
-
+![Home](/images/projects/iAm/home.png)
 
 ### Profile page
-
-<img src="https://akshaythorve.com/images/projects/iAm/home2.png" width="100%" >
-
+![Profile](/images/projects/iAm/home2.png)
 
 ### Survey website and Questions
-
-<img src="https://akshaythorve.com/images/projects/iAm/survey-page.png" width="100%" >
-
+![Survey Page](/images/projects/iAm/survey-page.png)
 
 ### Project Structure
+![Project Structure 1](/images/projects/iAm/project1.png)
 
-<img src="https://akshaythorve.com/images/projects/iAm/project1.png" width="60%" >
-
-<img src="https://akshaythorve.com/images/projects/iAm/project2.png" width="60%" >
+![Project Structure 2](/images/projects/iAm/project2.png)
 
 ### Mongo Storage
-<img src="https://akshaythorve.com/images/projects/iAm/mongo.png" width="100%" >
+![Mongo Storage](/images/projects/iAm/mongo.png)
+
 
 
 
@@ -146,7 +135,8 @@ Bear - Controller/Director
 ### Displaying Twitter feeds based on user inputs
 Relevant Tweets / News Feed
 
-<img src="https://akshaythorve.com/images/projects/iAm/tweets.png" width="100%" >
+![Tweets](/images/projects/iAm/tweets.png)
+
 
 ## Source Code
 Github: https://github.com/thorveakshay/iAm-Behavioral-Analytics-Application-Spring-Boot

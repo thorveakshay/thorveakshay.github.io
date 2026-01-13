@@ -46,32 +46,23 @@ Cloud Systems: Amazon AWS – EC2, Multimode cluster.
 Other Functionality: Google reCAPTCHA 2.0, Google Charts
 
 ### AWS Cloud System Architecture
-<br /> <img src="https://akshaythorve.com/images/works/AWS Cloud System Architecture.jpg" alt="" class="img-responsive" />
-<br />
+![AWS Cloud System Architecture](/images/works/AWS%20Cloud%20System%20Architecture.jpg)
 
 ### AWS EC2 cluster (1-Master & 2 Slaves)
-<br /> <img src="https://akshaythorve.com/images/works/EC2 cluster.png" alt="" class="img-responsive" />
-<br />
+![EC2 Cluster](/images/works/EC2%20cluster.png)
+
 
 ### Website with all charts and mined data from hadoop
-<br /> <img src="https://akshaythorve.com/images/works/Website.png" alt="" class="img-responsive" />
-<br />
+![Website Screenshot](/images/works/Website.png)
 
+![Pie Chart](/images/projects/hadoop-mapreduce/3dpiechart.png)
 
-<br /> <img src="https://akshaythorve.com/images/projects/hadoop-mapreduce/3dpiechart.png" alt="" class="img-responsive" />
-<br />
+![Bar Graph](/images/projects/hadoop-mapreduce/bargraph.png)
 
+![HDFS Table](/images/projects/hadoop-mapreduce/hdfstable.png)
 
-<br /> <img src="https://akshaythorve.com/images/projects/hadoop-mapreduce/bargraph.png" alt="" class="img-responsive" />
-<br />
+![ReCaptcha](/images/projects/hadoop-mapreduce/recaptcha2.0.png)
 
-
-<br /> <img src="https://akshaythorve.com/images/projects/hadoop-mapreduce/hdfstable.png" alt="" class="img-responsive" />
-<br />
-
-
-<br /> <img src="https://akshaythorve.com/images/projects/hadoop-mapreduce/recaptcha2.0.png" alt="" class="img-responsive" />
-<br />
 
 
 ## Technical Deep Dive: Divide and Conquer with MapReduce
@@ -164,8 +155,8 @@ These underpin all modern frameworks: Spark, Flink, Beam.
 
 ---
 
-<br /> <img src="https://akshaythorve.com/images/projects/hadoop-mapreduce/recaptchaAuth.png" alt="" class="img-responsive" />
-<br />
+![ReCaptcha Auth](/images/projects/hadoop-mapreduce/recaptchaAuth.png)
+
 
 
 Thank you!

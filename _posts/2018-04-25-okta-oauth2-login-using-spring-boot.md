@@ -59,17 +59,14 @@ The application will start at <http://localhost:8080>.
 ## Snapshots
 
 ### Landing page
-<img src="https://akshaythorve.com/images/projects/OAuth2/login.png" width="100%" >
-
+![Landing Page](/images/projects/OAuth2/login.png)
 
 ### API authentication on Okta
-
-<img src="https://akshaythorve.com/images/projects/OAuth2/Okta_app_authentication.png" width="100%" >
-
+![Okta App Authentication](/images/projects/OAuth2/Okta_app_authentication.png)
 
 ### Callback to base URL after successful authentication
+![Callback Successful Login](/images/projects/OAuth2/callback_successful_login.png)
 
-<img src="https://akshaythorve.com/images/projects/OAuth2/callback_successful_login.png" width="100%" >
 
 ### Code
 
@@ -81,29 +78,24 @@ Controller `WelcomeController.java`
 @Controller
 public class WelcomeController {
 
-	@RequestMapping("/")
-	public String welcomeSurvey(OAuth2Authentication authentication) {
+    @RequestMapping("/")
+    public String welcomeSurvey(OAuth2Authentication authentication) {
+        if (authentication != null) {
+            LinkedHashMap<String, Object> properties = (LinkedHashMap<String, Object>) authentication.getUserAuthentication().getDetails();
+            System.out.println("===========================================");
+            System.out.println("Authentication Object is: " + properties);
+            System.out.println("User name is: " + properties.get("name"));
+        }
+        return "index";
+    }
 
-		if (authentication != null) {
-
-			LinkedHashMap<String, Object> properties = (LinkedHashMap<String, Object>) authentication
-					.getUserAuthentication().getDetails();
-			System.out.println("===========================================");
-			System.out.println("Authentication Object is: " + properties);
-			System.out.println("User name is: " + properties.get("name"));
-			
-		}
-
-		return "index";
-	}
-
-	// test 5xx errors
-	@RequestMapping("/5xx")
-	public String ServiceUnavailable() {
-		throw new RuntimeException("ABC");
-	}
-
+    // test 5xx errors
+    @RequestMapping("/5xx")
+    public String ServiceUnavailable() {
+        throw new RuntimeException("ABC");
+    }
 }
+
 ```
 
 Rest Controller `SpringBootWebApplication.java`  with EnableOAuth2Sso
@@ -114,42 +106,34 @@ Rest Controller `SpringBootWebApplication.java`  with EnableOAuth2Sso
 @SpringBootApplication
 public class SpringBootWebApplication extends WebSecurityConfigurerAdapter {
 
-
-	@Override
+    @Override
     protected void configure(HttpSecurity http) throws Exception {
+        http.csrf().disable()
+            .authorizeRequests()
+            .antMatchers("/api/**", "/dashboard", "/welcome").authenticated()
+            .antMatchers("/**").permitAll()
+            .anyRequest().authenticated()
+            .and().logout().logoutSuccessUrl("/").permitAll();
+    }
 
-		http
-		.csrf().disable()
-		.authorizeRequests()
+    @RequestMapping("/user")
+    public Principal user(Principal principal) {
+        return principal;
+    }
 
-		.antMatchers("/api/**", "/dashboard", "/welcome").authenticated()
-        .antMatchers("/**").permitAll()
-        .anyRequest().authenticated()
-        .and().logout().logoutSuccessUrl("/").permitAll();
+    @RequestMapping("/akshay")
+    public void user(OAuth2Authentication authentication) {
+        LinkedHashMap<String, Object> properties = (LinkedHashMap<String, Object>) authentication.getUserAuthentication().getDetails();
+        System.out.println("Authentication Object is: "+ properties);
+        System.out.println("User name is: "+ properties.get("name"));
+        System.out.println("User ID is: "+ properties.get("id"));
+    }
 
-  }
-	  @RequestMapping("/user")
-	  public Principal user(Principal principal) {
-
-	      return principal;
-	  }
-
-	  @RequestMapping("/akshay")
-	    public void user(OAuth2Authentication authentication) {
-	        LinkedHashMap<String, Object> properties = (LinkedHashMap<String, Object>) authentication.getUserAuthentication().getDetails();
-
-System.out.println("Authentication Object is: "+ properties);
-	        System.out.println("User name is: "+ properties.get("name"));
-	        System.out.println("User ID is: "+ properties.get("id"));
-
-
-	    }
-
-	public static void main(String[] args) throws Exception {
-		SpringApplication.run(SpringBootWebApplication.class, args);
-	}
-
+    public static void main(String[] args) throws Exception {
+        SpringApplication.run(SpringBootWebApplication.class, args);
+    }
 }
+
 ```
 
 ## Technical Deep Dive: Understanding OAuth2 Single Sign-On
