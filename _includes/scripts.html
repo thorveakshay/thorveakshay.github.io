@@ -25,60 +25,42 @@
 {% if page.comments %}{% include disqus_comments.html %}{% endif %}
 
 <!-- MermaidJS support -->
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Initialize mermaid
+    mermaid.initialize({
+      startOnLoad: false,
+      theme: 'default'
+    });
 
-  // Configure mermaid
-  mermaid.initialize({
-    startOnLoad: false,
-    theme: 'default'
-  });
+    // Find all code blocks with language-mermaid class
+    // Jekyll/Kramdown outputs: <pre><code class="language-mermaid">...</code></pre>
+    var codeBlocks = document.querySelectorAll('code.language-mermaid');
 
-  document.addEventListener('DOMContentLoaded', async function () {
-    // 1. Find all standard Jekyll code blocks marked as mermaid
-    // usually <div class="language-mermaid ..."> or <pre><code class="language-mermaid">
-    const codeBlocks = document.querySelectorAll('.language-mermaid');
+    if (codeBlocks.length === 0) return;
 
-    // 2. Also check for raw pre>code patterns just in case
-    const rawBlocks = document.querySelectorAll('pre code.language-mermaid');
+    // Process each code block
+    codeBlocks.forEach(function (codeElement, index) {
+      // Get the mermaid code
+      var code = codeElement.textContent;
 
-    const allBlocks = [...codeBlocks, ...rawBlocks];
-
-    if (allBlocks.length === 0) return;
-
-    // Helper to process a block
-    allBlocks.forEach(block => {
-      // Avoid processing twice if we caught nested elements
-      if (block.closest('.mermaid-processed')) return;
-
-      // Get the code content
-      // If it's a wrapper div, textContent is usually fine.
-      let code = block.textContent;
-
-      // Create new mermaid div
-      let div = document.createElement('div');
+      // Create a new div for mermaid
+      var div = document.createElement('div');
       div.className = 'mermaid';
       div.textContent = code;
+      div.id = 'mermaid-diagram-' + index;
 
-      // Create a marker to prevent double processing
-      div.classList.add('mermaid-processed');
-
-      // Replace the block
-      // If it's a code element, try to replace the pre wrapper
-      if (block.tagName === 'CODE' && block.parentElement.tagName === 'PRE') {
-        block.parentElement.replaceWith(div);
-      } else {
-        // Otherwise replace the block itself (likely the div wrapper)
-        block.replaceWith(div); // This replaces the .language-mermaid div
+      // Replace the parent <pre> element
+      var preElement = codeElement.parentElement;
+      if (preElement && preElement.tagName === 'PRE') {
+        preElement.replaceWith(div);
       }
     });
 
-    // 3. Remove the processed marker class before rendering so mermaid doesn't get confused
-    document.querySelectorAll('.mermaid-processed').forEach(el => el.classList.remove('mermaid-processed'));
-
-    // 4. Run mermaid
-    await mermaid.run({
-      nodes: document.querySelectorAll('.mermaid')
+    // Now render all mermaid diagrams
+    mermaid.run({
+      querySelector: '.mermaid'
     });
   });
 </script>

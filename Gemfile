@@ -1,5 +1,16 @@
 source 'https://rubygems.org'
 
+# Patch for Ruby 3.2+ (removal of tainted? methods)
+[Object, NilClass, String].each do |klass|
+  klass.class_eval do
+    def tainted?; false; end
+    def taint; self; end
+    def untaint; self; end
+  end
+end
+
+gem 'webrick'
+
 gem 'nokogiri', '>= 1.13.4'
 gem 'addressable', '>= 2.8.0'
 
@@ -22,3 +33,4 @@ gem 'octopress', '>= 3.0.11'
 end
 
 gem "csv", "~> 3.3"
+gem 'bigdecimal', '~> 3.1'
