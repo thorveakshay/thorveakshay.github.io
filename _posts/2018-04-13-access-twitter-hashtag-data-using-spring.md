@@ -183,9 +183,10 @@ Below are snapshot. Do whatever you want to achieve with this data.
 
 ### For manutd hashtag
 
-<img src="/images/projects/manutd.png" width="100%" >
+### For manutd hashtag
+![manutd Hashtag](/images/projects/manutd.png)
 
 ### For smile hashtag
+![smile Hashtag](/images/projects/smile.png)
 
-<img src="/images/projects/smile.png" width="100%" >
 

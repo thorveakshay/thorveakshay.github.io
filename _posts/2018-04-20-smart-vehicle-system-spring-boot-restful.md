@@ -135,34 +135,35 @@ DELETE request on --> http://localhost:8080/vehicles/4
 ## Snapshots
 
 ### GET one request
-<img src="/images/projects/smart-vehicle/GET-one-request.png" width="100%" >
+![GET One Request](/images/projects/smart-vehicle/GET-one-request.png)
 
 ### GET Request
-<img src="/images/projects/smart-vehicle/GET-Request.png" width="100%" >
+![GET Request](/images/projects/smart-vehicle/GET-Request.png)
 
 
-### DELETE Request.png
-<img src="/images/projects/smart-vehicle/DELETE-Request.png" width="100%" >
+### DELETE Request
+![DELETE Request](/images/projects/smart-vehicle/DELETE-Request.png)
 
 
 ### POST Request
-<img src="/images/projects/smart-vehicle/POST-Request.png" width="100%" >
+![POST Request](/images/projects/smart-vehicle/POST-Request.png)
 
 ### PUT Request
-<img src="/images/projects/smart-vehicle/PUT-Request.png" width="100%" >
+![PUT Request](/images/projects/smart-vehicle/PUT-Request.png)
 
 ### Test Client
-<img src="/images/projects/smart-vehicle/Test-Client.png" width="100%" >
+![Test Client](/images/projects/smart-vehicle/Test-Client.png)
 
 ### High Level Unit Test Coverage
-<img src="/images/projects/smart-vehicle/HIghLavelUnitTestCoverage.png" width="100%" >
+![High Level Coverage](/images/projects/smart-vehicle/HIghLavelUnitTestCoverage.png)
 
 
 ### Unit Test coverage
-<img src="/images/projects/smart-vehicle/UnitTest-coverage.png" width="100%" >
+![Unit Test Coverage](/images/projects/smart-vehicle/UnitTest-coverage.png)
 
 ### Unit Test Result
-<img src="/images/projects/smart-vehicle/UnitTestResult.png" width="100%" >
+![Unit Test Result](/images/projects/smart-vehicle/UnitTestResult.png)
+
 
 ## Technical Deep Dive: Application-Layer Validation
 

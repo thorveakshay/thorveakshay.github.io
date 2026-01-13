@@ -89,48 +89,37 @@ MongoDB(some features) is not working as I am using free version of Heroku.
 ## Snapshots
 
 ### Home Page of Website
-<img src="/images/projects/iAm/landing-page.png" width="100%" >
-
+![Landing Page](/images/projects/iAm/landing-page.png)
 
 ### Navigation
-
-<img src="/images/projects/iAm/navigation.png" width="100%" >
+![Navigation](/images/projects/iAm/navigation.png)
 
 ### In-house Algorithm in JAVA Spring-Boot
-
-<img src="/images/projects/iAm/algorithm.png" width="100%" >
+![Algorithm](/images/projects/iAm/algorithm.png)
 
 ### OAuth2 Authentication of the user using Okta API
-
-<img src="/images/projects/iAm/okta-login.png" width="100%" >
+![Okta Login](/images/projects/iAm/okta-login.png)
 
 ### Running app using maven
-
-<img src="/images/projects/iAm/running-app.png" width="100%" >
+![Running App](/images/projects/iAm/running-app.png)
 
 ### Home page
-
-<img src="/images/projects/iAm/home.png" width="100%" >
-
+![Home](/images/projects/iAm/home.png)
 
 ### Profile page
-
-<img src="/images/projects/iAm/home2.png" width="100%" >
-
+![Profile](/images/projects/iAm/home2.png)
 
 ### Survey website and Questions
-
-<img src="/images/projects/iAm/survey-page.png" width="100%" >
-
+![Survey Page](/images/projects/iAm/survey-page.png)
 
 ### Project Structure
+![Project Structure 1](/images/projects/iAm/project1.png)
 
-<img src="/images/projects/iAm/project1.png" width="60%" >
-
-<img src="/images/projects/iAm/project2.png" width="60%" >
+![Project Structure 2](/images/projects/iAm/project2.png)
 
 ### Mongo Storage
-<img src="/images/projects/iAm/mongo.png" width="100%" >
+![Mongo Storage](/images/projects/iAm/mongo.png)
+
 
 
 
@@ -146,7 +135,8 @@ Bear - Controller/Director
 ### Displaying Twitter feeds based on user inputs
 Relevant Tweets / News Feed
 
-<img src="/images/projects/iAm/tweets.png" width="100%" >
+![Tweets](/images/projects/iAm/tweets.png)
+
 
 ## Source Code
 Github: https://github.com/thorveakshay/iAm-Behavioral-Analytics-Application-Spring-Boot
