@@ -2,7 +2,7 @@
 layout: post
 title: "AI Stack 2026: From Concepts to Engineering and Agentic Systems"
 date: "2026-01-12"
-slug: "demystifying-ai-concepts"
+slug: "ai-stack-2026-concepts-engineering-agents"
 description: "A comprehensive master guide to AI, bridging the gap between high-level concepts (AGI, Generative AI) and deep engineering mechanics (RAG, Vectors, MCP)."
 category:
   - Artificial Intelligence
