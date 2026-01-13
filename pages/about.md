@@ -28,7 +28,8 @@ tags:
 <a href="{{ site.owner.linkedin }}" class="social-icons" target="_blank" title="LinkedIn profile"><i class="iconm iconm-linkedin2"></i></a>
 </span>
 </div>
-## Software Engineer at PayPal. Designing and developing PayPal’s payment platform.
+## MTS 1 Software Engineer at PayPal
+. Designing and developing PayPal’s payment platform.
 
 I am Akshay Thorve, a full-stack software developer living and working in **San Francisco Bay Area**. Originally from India, I completed my Bachelor of Engineering in **top 5%** of class in 2012. I received an employment offer from [**TCS**](https://en.wikipedia.org/wiki/Tata_Consultancy_Services). * I worked in TCS for 4 years where I designed and developed dozens of projects. I am currently working at [**PayPal, Inc.**](https://www.paypal.com/us/home) in **Core Payments Team**.
 
@@ -40,11 +41,16 @@ As a *Systems Engineer* at TCS, I Executed projects as a *Full-Stack developer*,
 
 In fall 2016, I left TCS to pursue my Master of Science in Computer Science. Also, I worked as a *Graduate Assistant (Web Developer)* at California State University, Fullerton. Also, as part of my masters did some really awesome projects and research. Please visit my GitHub or blog page for more details on personal projects.
 
-Below is the overview of my work in core payments team as *Software Engineer* at PayPal.
-* Help with the design and development of PayPal’s payment platform
-* Help with product design and code reviews with an ability to competently review any aspect of the product or major sub-system
+Professional experience of **12+ years** in analysis, design and development of client/server, web based and n-tier application using Java/J2EE technologies.
+duct design and code reviews with an ability to competently review any aspect of the product or major sub-system
 * Help with architecture discussions and propose solutions to system and product changes
 * Build and maintain highly scalable, robust and secure services used by the PayPal platform
+
+Since joining PayPal in 2018, I've grown into a MTS 1 Software Engineer role, focusing on:
+- Building and scaling payment processing systems handling millions of transactions
+- Leading technical initiatives around security, reliability, and performance
+- Mentoring junior engineers and contributing to architectural decisions
+- Staying current with modern Java ecosystem (Spring Boot 3.x, cloud-native patterns)
 
 ## Objective
 Looking for an opportunity to work and upgrade my knowledge and skills, as well as being involved in an organization that believes in *gaining a competitive edge and giving back to the community*. I'm presently expanding my solid experience in Software Engineering and Web Application Development. I focus on using my interpersonal skills to build good user experience and create value to end user. I hope to develop skills in Artificial Intelligence, Machine learning and use my knowledge of the programming to become an honest asset to the business. As an individual, I'm self-confident, and you’ll find me creative, funny and naturally passionate. I’m a forward thinker & a good team player, which others may find inspiring when working as a team.
@@ -56,10 +62,7 @@ I enjoy programming applications see them running in production environment. I l
 * Software Performance & Security Improvement
 * Continuous Integration and Delivery
 
-<!---
-## Note
-**I am actively looking for `Full-Time job opportunities` starting July 2018. Drop me an [email](mailto:thorveakshay@gmail.com?subject=Job%20Opportunity&body=Hello%20Akshay,%0D%0A) if your organization is looking for a passionate engineer. I am also open for a quick chat on [LinkedIn](https://www.linkedin.com/in/akshaythorve).**
---->
+
 ## About the site
 This URL has been my online home for many years. I started my 1st static portfolio website on Wordpress then moved it to HTML, CSS and, JS to make it more responsive. Today, integrating blog using Jekyll to share my development related work.
 
