@@ -7,6 +7,7 @@ description: "A comprehensive master guide to AI, bridging the gap between high-
 category:
   - Artificial Intelligence
   - Engineering
+  - featured
 tags:
   - LLM
   - RAG
