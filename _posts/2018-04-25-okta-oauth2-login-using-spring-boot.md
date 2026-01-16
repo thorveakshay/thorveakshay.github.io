@@ -8,6 +8,7 @@ category:
   - Java
   - Personal Projects
   - Application Security
+  - featured
 # tags will also be used as html meta keywords.
 tags:
   - Spring Boot

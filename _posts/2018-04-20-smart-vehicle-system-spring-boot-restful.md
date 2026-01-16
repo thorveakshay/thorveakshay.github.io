@@ -7,6 +7,7 @@ description: "Java Spring Restful application"
 category:
   - Java
   - Personal Projects
+  - featured
 # tags will also be used as html meta keywords.
 tags:
   - Spring Boot

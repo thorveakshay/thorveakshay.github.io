@@ -8,12 +8,12 @@ published: true
 modified: "2016-01-13"
 ---
 
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 ### Theme Credit: 
 
-*   Base: [*lanyon*](https://github.com/poole/lanyon) by [Mark Otto](https://github.com/mdo)
-*   Add-ons: [Samir B. Amin](https://twitter.com/sbamin) at [SBAmin.com](http://www.sbamin.com)
+*   Base: [*lanyon*](https://github.com/poole/lanyon){:target="_blank"} by [Mark Otto](https://github.com/mdo){:target="_blank"}
+*   Add-ons: [Samir B. Amin](https://twitter.com/sbamin){:target="_blank"} at [SBAmin.com](http://www.sbamin.com){:target="_blank"}
 
 {% highlight c %}
 Released under MIT License
