@@ -4,50 +4,62 @@ permalink: /contact/
 title: Contact
 show_meta: false
 published: true
-description: "Contact Akshay"
+description: "Get in touch with Akshay Thorve"
 comments: false
 mathjax: false
 noindex: false
+priorities: 0.8
 sitemap:
-    priority: 0.5
+    priority: 0.8
     changefreq: 'monthly'
-    lastmod: 2022-04-20
+    lastmod: 2026-01-13
 tags:
   - "Akshay Thorve"
   - address
 ---
 
-| <i class="fa fa-paper-plane">  | thorveakshay@gmail.com |
-| - | :- |
-| <i class="fa fa-linkedin">  | https://www.linkedin.com/in/akshaythorve |
-| - | :- |
-| <i class="fa fa-envelope"></i> | Akshay Thorve<br>Santa Clara, California 95050, USA |
-| - | :- |
-| <i class="fa fa-twitter"></i> | [@{{ site.owner.twitter }}](https://twitter.com/{{ site.owner.twitter }})  |
-| - | :- |
-
-
-<a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.owner.twitter }}" data-size="small" data-dnt="true">Tweet</a> <a href="javascript:window.print()" class="social-icons" title="Printer friendly format"><i class="fa fa-print"></i></a>
-
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-{% if site.twitter_widget_id %}
-<div class="text-tweets">
-<div class="tweets">
-<a class="twitter-timeline"
-  data-dnt="true"
-  width="600"
-  height="250"
-  href="https://twitter.com/{{ site.owner.twitter }}"
-  data-widget-id="{{ site.twitter_widget_id }}"
-  data-tweet-limit="2"
-  data-chrome="noheader nofooter noborders noscrollbar transparent">
-  Recent Tweets</a>
- </div>
-<script>
-    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-</script>
+<div class="about-hero" style="margin-bottom: 1rem;">
+  <h1 class="about-name">Let's Connect</h1>
+  <p class="about-tagline" style="margin-top: 0.5rem;">I'm always open to discussing system architecture, payment platforms, or new opportunities.</p>
 </div>
-{% else %}
-Twitter stream will show up here if `twitter_widget_id` is present is `_config.yml`
-{% endif %}
+
+<div class="contact-grid">
+  <!-- Email Card -->
+  <a href="mailto:thorveakshay@gmail.com" class="contact-card mail-card">
+    <i class="contact-icon iconm iconm-envelop"></i>
+    <div class="contact-title">Email</div>
+    <div class="contact-detail">thorveakshay@gmail.com</div>
+  </a>
+
+  <!-- LinkedIn Card -->
+  <a href="{{ site.owner.linkedin }}" target="_blank" class="contact-card">
+    <i class="contact-icon iconm iconm-linkedin2"></i>
+    <div class="contact-title">LinkedIn</div>
+    <div class="contact-detail">Connect professionally</div>
+  </a>
+
+  <!-- Resume Card -->
+  <a href="{{ site.url }}/resume" class="contact-card">
+    <i class="contact-icon iconm iconm-profile"></i>
+    <div class="contact-title">Resume</div>
+    <div class="contact-detail">View my background</div>
+  </a>
+
+  <!-- GitHub Card -->
+  <a href="https://github.com/{{ site.owner.github }}" target="_blank" class="contact-card">
+    <i class="contact-icon iconm iconm-github2"></i>
+    <div class="contact-title">GitHub</div>
+    <div class="contact-detail">Check out my code</div>
+  </a>
+
+  <!-- Twitter/X Card -->
+  <a href="https://twitter.com/{{ site.owner.twitter }}" target="_blank" class="contact-card">
+    <i class="contact-icon iconm iconm-twitter"></i>
+    <div class="contact-title">Twitter</div>
+    <div class="contact-detail">@thorveakshay</div>
+  </a>
+</div>
+
+<div class="location-check" style="text-align: center; margin-top: 3rem; color: #757575;">
+  <i class="fa fa-map-marker" style="color: #268bd2;"></i> &nbsp; Based in <strong>Santa Clara, California</strong>
+</div>

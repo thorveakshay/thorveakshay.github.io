@@ -2,11 +2,10 @@
 layout: page
 title: About
 permalink: /about/
-show_meta: true
-# imagefeature path is relative to images/ directory.
+show_meta: false
 imagefeature: foo.png
 published: true
-description: "Are you looking for an experienced, passionate developer with diverse skill set? You are at right place! Please, go through my profile, and let me know if I am a good fit for you."
+description: "MTS 1 Software Engineer at PayPal | Architecting High-Scale Payment Systems | 12+ Years Experience"
 category: views
 comments: false
 mathjax: false
@@ -14,79 +13,167 @@ noindex: false
 sitemap:
     priority: 0.7
     changefreq: 'monthly'
-    lastmod: 2016-02-13
-# tags will be used as html meta keywords.
+    lastmod: 2026-01-13
 tags:
   - "Akshay Thorve"
+  - "Software Engineer"
+  - "PayPal"
+  - "System Design"
 ---
 
-<div class="post-author text-center">
-            <img src="{{ site.urlimg }}{{ site.owner.avatar }}" alt="{{ site.owner.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/>
-<span class="social-icons" style="padding-top: 10px; padding-bottom: 1px;">
-<a href="{{ site.url }}/resume" title="Resume" target="_blank" class="social-icons"><i class="iconm iconm-profile" style="vertical-align: top;"></i></a>
-<a href="{{ site.url }}/about/publications/" target="_blank" class="social-icons" title="Publications"><i class="iconm iconm-file-pdf"></i></a>
-<a href="{{ site.owner.linkedin }}" class="social-icons" target="_blank" title="LinkedIn profile"><i class="iconm iconm-linkedin2"></i></a>
-</span>
+<div class="about-hero">
+  <img src="{{ site.baseurl }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }}'s photo" class="about-avatar"/>
+  <h1 class="about-name">Akshay Thorve</h1>
+  <p class="about-title">Member of Technical Staff 1 @ PayPal</p>
+  
+  <div class="about-social">
+    <a href="{{ site.owner.linkedin }}" target="_blank" title="LinkedIn"><i class="iconm iconm-linkedin2"></i></a>
+    <a href="https://github.com/{{ site.owner.github }}" target="_blank" title="GitHub"><i class="iconm iconm-github2"></i></a>
+    <a href="{{ site.url }}/resume" title="Resume"><i class="iconm iconm-profile"></i></a>
+    <a href="{{ site.url }}/contact/" title="Contact"><i class="iconm iconm-envelop"></i></a>
+  </div>
+  
+  <p class="about-tagline">"Architecting scalable payment systems and modernizing legacy infrastructure"</p>
 </div>
-## MTS 1 Software Engineer at PayPal
-. Designing and developing PayPal’s payment platform.
 
-I am Akshay Thorve, a full-stack software developer living and working in **San Francisco Bay Area**. Originally from India, I completed my Bachelor of Engineering in **top 5%** of class in 2012. I received an employment offer from [**TCS**](https://en.wikipedia.org/wiki/Tata_Consultancy_Services). * I worked in TCS for 4 years where I designed and developed dozens of projects. I am currently working at [**PayPal, Inc.**](https://www.paypal.com/us/home) in **Core Payments Team**.
+<div class="stats-grid">
+  <div class="stat-card">
+    <div class="stat-number">12+</div>
+    <div class="stat-label">Years Experience</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">Staff</div>
+    <div class="stat-label">Engineer</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">MS CS</div>
+    <div class="stat-label">CSUF</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">Bay Area</div>
+    <div class="stat-label">Based</div>
+  </div>
+</div>
 
-I am passionate about `Software design`, `architecture`, and `engineering`.
-As a *Systems Engineer* at TCS, I Executed projects as a *Full-Stack developer*, with an emphasis on designing scalable services in Java/J2EE & Python.
-* I worked on developing end to end order search functionality and report generation API for **Toys"R"us**.
-* My team and I designed and developed **Mitsubishi** Plant Manager, Supervisor dashboards which resulted in forming `TCS-Mitsubishi $600 million joint venture.`{:.yelhglt}
-* My favorite project is with **Nielsen** Company. I worked on a huge stack of technologies and many challenging projects with Nielsen. I was talking to `client daily and gathering requirements, finalizing designs.`{:.yelhglt} I worked on 3 major websites of Nielsen also handled a couple of `security threats` and Sev1 issues and reduced direct business impact.
+## Who Am I?
 
-In fall 2016, I left TCS to pursue my Master of Science in Computer Science. Also, I worked as a *Graduate Assistant (Web Developer)* at California State University, Fullerton. Also, as part of my masters did some really awesome projects and research. Please visit my GitHub or blog page for more details on personal projects.
+I am Akshay Thorve, a **Staff Software Engineer** originally from India, now building scalable systems in the Bay Area, California.
 
-Professional experience of **12+ years** in analysis, design and development of client/server, web based and n-tier application using Java/J2EE technologies.
-duct design and code reviews with an ability to competently review any aspect of the product or major sub-system
-* Help with architecture discussions and propose solutions to system and product changes
-* Build and maintain highly scalable, robust and secure services used by the PayPal platform
+Currently, I work as a **Member of Technical Staff 1 at PayPal**, developing and enhancing the core payment platform. My work sits at the intersection of high-availability distributed systems, system architecture, and complex financial infrastructure.
 
-Since joining PayPal in 2018, I've grown into a MTS 1 Software Engineer role, focusing on:
-- Building and scaling payment processing systems handling millions of transactions
-- Leading technical initiatives around security, reliability, and performance
-- Mentoring junior engineers and contributing to architectural decisions
-- Staying current with modern Java ecosystem (Spring Boot 3.x, cloud-native patterns)
-
-## Objective
-Looking for an opportunity to work and upgrade my knowledge and skills, as well as being involved in an organization that believes in *gaining a competitive edge and giving back to the community*. I'm presently expanding my solid experience in Software Engineering and Web Application Development. I focus on using my interpersonal skills to build good user experience and create value to end user. I hope to develop skills in Artificial Intelligence, Machine learning and use my knowledge of the programming to become an honest asset to the business. As an individual, I'm self-confident, and you’ll find me creative, funny and naturally passionate. I’m a forward thinker & a good team player, which others may find inspiring when working as a team.
-
-## What I Do?
-I enjoy programming applications see them running in production environment. I love solving a complex problem by breaking them down and working on individual parts. I know user interface plays the vital role, but I am excited to explore more about the internal working of systems. Which includes,
-* Software Analysis & Design
-* Backend Development & Engineering
-* Software Performance & Security Improvement
-* Continuous Integration and Delivery
+With **12+ years of professional experience**, I specialize in transforming legacy systems into modern scalable architectures. You'll find me creative, funny and naturally passionate about technology—whether it's designing fault-tolerant global systems, optimizing performance, or exploring emerging AI technologies. I'm a forward thinker & collaborative team player who thrives on solving complex challenges that impact millions of users.
 
 
-## About the site
-This URL has been my online home for many years. I started my 1st static portfolio website on Wordpress then moved it to HTML, CSS and, JS to make it more responsive. Today, integrating blog using Jekyll to share my development related work.
 
-In case you were wondering, this site is:
+## Professional Journey
 
-* Developed on a Mac in California
-* Coded with Atom
-* Built on [Jekyll](https://jekyllrb.com/) the open source static site generator
-* Hosted on [GitHub Pages](https://pages.github.com/)
-* CDN/Firewall/Caching/DNS Mapping  [Cloudflare](https://www.cloudflare.com/)
+**2018 - Present: PayPal (MTS 1)**  
+*Leading global payment architecture & modernizing legacy systems.*
 
-## Technical Skills
+Over my **7+ years at PayPal**, I've progressed from Software Engineer II to **Member of Technical Staff 1**, consistently driving technical strategy. My recent focus (last 12 months) has been on a massive modernization effort—redesigning core payment services for the cloud:
+- **Cloud Migration & App Modernization:** Spearheading the migration of Payment services from on-prem infrastructure to **Google Cloud**. This involves consolidating and simplifying complex **Java microservices** and migrating monolithic **Oracle** databases to **Google Cloud Spanner** to ensure high availability and scalability.
+- **Infrastructure & DevOps Enablement:** Architected and set up the foundational Dev/QA infrastructure to enable rapid testing and deployment. Utilized **Terraform** to provision **VPCs, Kubernetes namespaces, Load Balancers, and Static IPs**, creating a self-service environment for the engineering team.
+- **Technical Leadership:** Mentoring junior engineers, conducting architecture reviews, and driving technical excellence across teams to ensure scalable, maintainable code.
+- **Global Scale:** Implemented IBAN validation for **83 countries**, enabling key market expansions across Europe, Asia, and beyond.
+- **Cost Efficiency:** Engineered a multi-language support system for XOOM integration, saving **$1.5 Million** for the Canada launch.
+- **Performance:** Re-engineered critical payment data access paths to improve system reliability and throughput.
+- **Security & Compliance:** Built "Pay-Wall" features to blocklist specific financial institutes for regulatory compliance.
 
-**Languages:** Java, Python	<br>
-**Frameworks:**  Spring MVC, Spring boot, Hibernate, REST, Hadoop, Adobe Experience Manager (AEM)<br>
-**Databases:** MongoDB, Redis, SQL, NoSQL<br>
-**Web Technologies:** RESTful, JSON, HTML5, CSS3, JavaScript, XML, JSP, Servlets, Mustache, Flask, Unix, Linux, TCP/IP<br>
-**Methodologies:** Agile, Scrum, Waterfall<br>
-**Cloud:** Amazon Web Services (AWS), Okta, Google API's, Twitter API<br>
-**Build Tools:** Jenkins, Maven, Ant, Docker<br>
-**Application Servers:** IBM WebSphere, Tomcat, WebLogic, Apache.<br>
-**Tools:**  Git, SVN, Eclipse, IntelliJ, Postman<br>
+**2012 - 2016: Tata Consultancy Services (TCS)**  
+*Foundational years building enterprise solutions for major global clients.*
 
+My favorite project was with **Nielsen**, where I **designed, developed, and built backend APIs** for the Digital Rating platforms serving **Germany, Italy, and USA markets**. Using Java, Spring, and Adobe AEM, our team increased customer interaction by **30%**. I enjoyed **talking to the client daily**, gathering requirements, finalizing designs, handling security threats, and resolving Sev1 production issues. This direct engagement taught me the value of bridging technical excellence with real-world business needs.
 
-[**Contact Me**](https://akshaythorve.com/contact/) | [**Resume**](https://akshaythorve.com/resume/)
+Other key highlights:
+- **Mitsubishi:** Designed **Plant Manager and Supervisor dashboards** using Java and Spring, achieving a remarkable **0.02-second data reflection rate**. This work helped facilitate a **$600 Million TCS-Mitsubishi joint venture**.
+- **Toys"R"Us:** Built reporting APIs for **500+ pickup locations** across the USA, reducing report generation time by **50%** and achieving **97% customer satisfaction**.
 
-*[volutpat]: Tooltip for abbreviation.
+**2016 - 2018: California State University, Fullerton**  
+*   **Master of Science in Computer Science** (GPA: 3.74)  
+    Focus: Distributed Systems | *Graduate Assistant (Web Developer)*
+
+**2008 - 2012: University of Pune**  
+*   **Bachelor of Engineering in Information Technology**  
+    Graduated in the **top 5% of the class**.
+
+## What I Focus On
+
+I love solving complex problems by breaking them down into manageable components. My work centers on building resilient, high-performance backend systems:
+- **Distributed Systems Architecture** – Designing fault-tolerant services at global scale
+- **System Modernization** – Transforming legacy monoliths into scalable microservices
+- **Performance Engineering** – Optimizing latency and throughput for critical payment paths
+- **Security & Compliance** – Building payment systems that meet stringent regulatory standards
+
+## Technical Arsenal
+
+<div class="skills-grid">
+  <div class="skill-category">
+    <h3>Core Stack</h3>
+    <div class="skill-tags">
+      <span class="skill-tag">Java</span>
+      <span class="skill-tag">Spring Boot</span>
+      <span class="skill-tag">Spring Batch</span>
+      <span class="skill-tag">Hibernate</span>
+      <span class="skill-tag">Microservices</span>
+      <span class="skill-tag">Distributed Systems</span>
+      <span class="skill-tag">System Design</span>
+      <span class="skill-tag">Python</span>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <h3>Cloud & Data Platform</h3>
+    <div class="skill-tags">
+      <span class="skill-tag">GCP</span>
+      <span class="skill-tag">Google Spanner</span>
+      <span class="skill-tag">AWS</span>
+      <span class="skill-tag">Kubernetes</span>
+      <span class="skill-tag">Terraform</span>
+      <span class="skill-tag">Docker</span>
+      <span class="skill-tag">Oracle</span>
+      <span class="skill-tag">MySQL</span>
+      <span class="skill-tag">MongoDB</span>
+      <span class="skill-tag">Redis</span>
+      <span class="skill-tag">Jenkins</span>
+      <span class="skill-tag">CI/CD</span>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <h3>Emerging Tech <span style="font-size: 0.75rem; color: #757575; font-weight: 400;">(Actively Learning)</span></h3>
+    <div class="skill-tags">
+      <span class="skill-tag skill-tag-learning">Generative AI</span>
+      <span class="skill-tag skill-tag-learning">LLMs</span>
+      <span class="skill-tag skill-tag-learning">AI Integration</span>
+    </div>
+  </div>
+</div>
+
+## Publications & Awards
+
+### Research
+- **[Data Security over Cloud](https://www.ijcaonline.org/proceedings/etcsit/number5/5993-1035/)** – *International Journal of Computer Applications (IJCA)*
+  Published in the proceedings of the International Conference on Emerging Trends in Computer Science and Information Technology.
+  <br><span style="font-size: 0.9em; color: #666;">**Impact:** 48 Citations • 3 Highly Influential • 14 Background Citations</span>
+
+### Honors
+- **10+ Spot and Bravo Awards** – Recognizing agile delivery and technical excellence at PayPal.
+- **LIREL Honor Award** – TCS (awarded to top trainees for verified excellence).
+- **Service Excellence Award** – Nielsen (for critical digital platform enhancements).
+
+## About This Site
+
+This site serves as my digital garden—a place to document my learning, share projects, and connect with the community. You can find the source code on [GitHub](https://github.com/thorveakshay/thorveakshay.github.io).
+
+*   **Developed** on a Mac in California along to some music.
+*   **Built with** [Jekyll](http://jekyllrb.com), the simple, blog-aware, static site generator.
+*   **Hosted on** [GitHub Pages](https://pages.github.com) and delivered via Cloudflare CDN.
+*   **Coded with** VS Code (previously Atom).
+*   **Comments** powered by Giscus.
+
+---
+
+<div class="cta-buttons">
+  <a href="{{ site.url }}/resume" class="btn btn-primary">Download Resume</a>
+  <a href="{{ site.url }}/contact/" class="btn btn-secondary">Get in Touch</a>
+</div>

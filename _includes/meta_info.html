@@ -5,5 +5,7 @@
                 class="social-icons" target="_blank" title="Share on LinkedIn"><i class="fa fa-linkedin"></i></a>
         {% if page.comments %}<a href="#comments" class="social-icons" title="Jump to comments"><i
                         class="fa fa-comments"></i></a>{% endif %}
+        {% if page.category contains "featured" %}<a href="{{ site.url }}/featured" title="Featured post"><i
+                        class="fa fa-paperclip"></i></a>{% endif %}
         <a href="javascript:window.print()" class="social-icons" title="Print"><i class="fa fa-print"></i></a>
 </span>
