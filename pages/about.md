@@ -26,6 +26,16 @@ tags:
   <h1 class="about-name">Akshay Thorve</h1>
   <p class="about-title">Member of Technical Staff 1 @ PayPal</p>
   
+  <div class="info-bar" style="margin: 0.5rem 0 1.5rem 0;">
+    <div class="info-context">
+      <span class="info-item"><i class="fa fa-briefcase"></i> 12+ Years Experience</span>
+      <span class="info-separator">•</span>
+      <span class="info-item"><i class="fa fa-graduation-cap"></i> MS Computer Science</span>
+      <span class="info-separator">•</span>
+      <span class="info-item"><i class="fa fa-map-marker"></i> Bay Area</span>
+    </div>
+  </div>
+  
   <div class="about-social">
     <a href="{{ site.owner.linkedin }}" target="_blank" title="LinkedIn"><i class="iconm iconm-linkedin2"></i></a>
     <a href="https://github.com/{{ site.owner.github }}" target="_blank" title="GitHub"><i class="iconm iconm-github2"></i></a>
@@ -34,25 +44,6 @@ tags:
   </div>
   
   <p class="about-tagline">"Architecting scalable payment systems and modernizing legacy infrastructure"</p>
-</div>
-
-<div class="stats-grid">
-  <div class="stat-card">
-    <div class="stat-number">12+</div>
-    <div class="stat-label">Years Experience</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">Staff</div>
-    <div class="stat-label">Engineer</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">MS CS</div>
-    <div class="stat-label">CSUF</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">Bay Area</div>
-    <div class="stat-label">Based</div>
-  </div>
 </div>
 
 ## Who Am I?
@@ -70,7 +61,14 @@ With **12+ years of professional experience**, I specialize in transforming lega
 **2018 - Present: PayPal (MTS 1)**  
 *Leading global payment architecture & modernizing legacy systems.*
 
-Over my **7+ years at PayPal**, I've progressed from Software Engineer II to **Member of Technical Staff 1**, consistently driving technical strategy. My recent focus (last 12 months) has been on a massive modernization effort—redesigning core payment services for the cloud:
+Over my **7+ years at PayPal**, I've progressed from Software Engineer II to **Member of Technical Staff 1**, gaining deep expertise across the Core Payments ecosystem. My tenure has spanned both platform infrastructure and critical business features:
+
+*   **Financial Reference Data (FReD):** Managed the backbone of payments, overseeing storage and retrieval of bank, card, and merchant data essential for processing.
+*   **Payments Tools & Framework (PTF):** Developed internal monitoring and data correction tools to ensure operational health.
+*   **Stored Value:** Served as a Subject Matter Expert (SME) for ledger systems managing PayPal balances for millions of users.
+*   **Wallet Transaction Processing (WTP):** Currently driving the **Cloud Migration** for key money-movement subsystems, modernizing the core engine of PayPal.
+
+My focus centers on transforming these critical monoliths into scalable, cloud-native architectures:
 - **Cloud Migration & App Modernization:** Spearheading the migration of Payment services from on-prem infrastructure to **Google Cloud**. This involves consolidating and simplifying complex **Java microservices** and migrating monolithic **Oracle** databases to **Google Cloud Spanner** to ensure high availability and scalability.
 - **Infrastructure & DevOps Enablement:** Architected and set up the foundational Dev/QA infrastructure to enable rapid testing and deployment. Utilized **Terraform** to provision **VPCs, Kubernetes namespaces, Load Balancers, and Static IPs**, creating a self-service environment for the engineering team.
 - **Technical Leadership:** Mentoring junior engineers, conducting architecture reviews, and driving technical excellence across teams to ensure scalable, maintainable code.
@@ -82,7 +80,7 @@ Over my **7+ years at PayPal**, I've progressed from Software Engineer II to **M
 **2012 - 2016: Tata Consultancy Services (TCS)**  
 *Foundational years building enterprise solutions for major global clients.*
 
-My favorite project was with **Nielsen**, where I **designed, developed, and built backend APIs** for the Digital Rating platforms serving **Germany, Italy, and USA markets**. Using Java, Spring, and Adobe AEM, our team increased customer interaction by **30%**. I enjoyed **talking to the client daily**, gathering requirements, finalizing designs, handling security threats, and resolving Sev1 production issues. This direct engagement taught me the value of bridging technical excellence with real-world business needs.
+My favorite project at TCS was with **Nielsen**, where I **designed, developed, and built backend APIs** for the Digital Rating platforms serving **Germany, Italy, and USA markets**. Using Java, Spring, and Adobe AEM, our team increased customer interaction by **30%**. I **led daily client communications**, bridging the gap between technical implementation and business requirements. My role included end-to-end ownership—from refining designs and mitigating security threats to resolving critical Sev1 production issues—underscoring the value of technical excellence in real-world applications.
 
 Other key highlights:
 - **Mitsubishi:** Designed **Plant Manager and Supervisor dashboards** using Java and Spring, achieving a remarkable **0.02-second data reflection rate**. This work helped facilitate a **$600 Million TCS-Mitsubishi joint venture**.
@@ -152,7 +150,7 @@ I love solving complex problems by breaking them down into manageable components
 ## Publications & Awards
 
 ### Research
-- **[Data Security over Cloud](https://www.ijcaonline.org/proceedings/etcsit/number5/5993-1035/)** – *International Journal of Computer Applications (IJCA)*
+- **[Data Security over Cloud](https://www.ijcaonline.org/proceedings/etcsit/number5/5993-1035/){:target="_blank"}** – *International Journal of Computer Applications (IJCA)*
   Published in the proceedings of the International Conference on Emerging Trends in Computer Science and Information Technology.
   <br><span style="font-size: 0.9em; color: #666;">**Impact:** 48 Citations • 3 Highly Influential • 14 Background Citations</span>
 
@@ -163,11 +161,11 @@ I love solving complex problems by breaking them down into manageable components
 
 ## About This Site
 
-This site serves as my digital garden—a place to document my learning, share projects, and connect with the community. You can find the source code on [GitHub](https://github.com/thorveakshay/thorveakshay.github.io).
+This site serves as my digital garden—a place to document my learning, share projects, and connect with the community. You can find the source code on [GitHub](https://github.com/thorveakshay/thorveakshay.github.io){:target="_blank"}.
 
 *   **Developed** on a Mac in California along to some music.
-*   **Built with** [Jekyll](http://jekyllrb.com), the simple, blog-aware, static site generator.
-*   **Hosted on** [GitHub Pages](https://pages.github.com) and delivered via Cloudflare CDN.
+*   **Built with** [Jekyll](http://jekyllrb.com){:target="_blank"}, the simple, blog-aware, static site generator.
+*   **Hosted on** [GitHub Pages](https://pages.github.com){:target="_blank"} and delivered via Cloudflare CDN.
 *   **Coded with** VS Code (previously Atom).
 *   **Comments** powered by Giscus.
 

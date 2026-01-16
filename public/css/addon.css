@@ -134,41 +134,9 @@ html {
     line-height: 1.6;
 }
 
-/* Stats Grid */
-.stats-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 1rem;
-    margin: 2rem 0 3rem 0;
-}
 
-.stat-card {
-    background: #f9f9f9;
-    border: 1px solid #e5e5e5;
-    border-radius: 8px;
-    padding: 1.5rem 1rem;
-    text-align: center;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.stat-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.stat-number {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #268bd2;
-    margin-bottom: 0.5rem;
-}
-
-.stat-label {
-    font-size: 0.875rem;
-    color: #757575;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
+/* Stats Grid (Legacy - Removed) */
+/* .stats-grid & .stat-card styles were here */
 
 /* Skills Grid */
 .skills-grid {
@@ -367,6 +335,109 @@ html {
 
 @media (max-width: 48em) {
     .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Modern Info Bar (About Page) */
+.info-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 2rem 0 3rem 0;
+    text-align: center;
+    font-family: inherit;
+}
+
+.info-primary {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.info-context {
+    font-size: 1rem;
+    color: #666;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.info-separator {
+    color: #ccc;
+    font-size: 0.8rem;
+    align-self: center;
+}
+
+.info-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.info-item i {
+    color: #268bd2;
+    /* Lanyon blue */
+    font-size: 0.9em;
+}
+
+/* Modern Contact Hub (Contact Page) */
+.contact-hub-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+.hub-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    text-decoration: none !important;
+    color: #555 !important;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+.hub-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    border-color: #268bd2;
+    color: #268bd2 !important;
+}
+
+.hub-card.primary {
+    border-bottom: 3px solid #268bd2;
+}
+
+.hub-icon {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    color: #268bd2;
+}
+
+.hub-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.hub-subtitle {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+@media (max-width: 600px) {
+    .contact-hub-grid {
         grid-template-columns: 1fr;
     }
 }
