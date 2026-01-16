@@ -6,24 +6,20 @@ description: "Blogging on my passion | Are you looking for a experienced, passio
 Tech: Java, AWS, Adobe AEM, RESTful, Python, Cloud Technologies, SQL, NOSQL, Agile, Backend developer, web developer"
 ---
 
-# Passionate Software Engineer
+# Software Engineer & AI Enthusiast | Building Scalable Systems
  Currently working in core payments team at PayPal, Inc.
 
 ### Quick summary about me
-* Professional experience of <strong>12+ years</strong> in analysis, design and development of client/server, web based and n-tier application using Java/J2EE technologies.
-* Full-Stack developer, with an emphasis on designing scalable services in `Java/J2EE` & `Python` stack.
-* Project methodologies `Agile`, `Scrum`, `XP`, and `Waterfall`.
-* Expert at translating business requirements into technical solutions.
-* Contributed to onsite, offsite and cross-platform teams on software development and `continuous delivery` and `continuous integration.`
-* Excellent `team player` along with problem-solving and analytical skills.
-* Open to learn new technology/programming language as per the project need.
+I am a Staff Software Engineer with over 12 years of experience building high-availability, global-scale systems. Currently at PayPal, I focus on modernizing core payment infrastructure and designing emerging AI solutions. I specialize in solving complex engineering challenges using Java, Spring Boot, and Python, but I'm always exploring what's next.
 
-<a href="/about" title="Read more"><strong>Read more...</strong></a>
+More than just writing code, I love the process of turning business ideas into working software. I enjoy leading diverse teams, mentoring engineers, and bridging the gap between stakeholders and technical reality. For me, it's not about the specific stack—it's about finding the perfectly simple solution to a complex problem.
 
-# Recent Blog Posts & Projects
+<a href="/about" title="Read more"><strong>Read more about my journey...</strong></a>
+
+# Featured Projects & Deep Dives
 
 <div class="posts">
-  {% for post in site.categories.featured limit:2 %}
+  {% for post in site.categories.featured limit:4 %}
   <div class="post">
     <h2 class="post-title">
       <a href="{{ site.url }}{{ post.url }}">
